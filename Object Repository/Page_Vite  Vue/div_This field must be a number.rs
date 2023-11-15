@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_This field must be a number</name>
+   <tag></tag>
+   <elementGuidId>915e156e-30b4-441d-846a-c71fb7252dd3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.code-modal__inputs-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/form/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>75a6ee7f-0f6f-446b-b81a-a3e10a0250d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>code-modal__inputs-wrapper</value>
+      <webElementGuid>d958035b-691a-4f81-8c2c-b591332e5685</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This field must be a number</value>
+      <webElementGuid>6a4ff8ec-3c54-4c90-a111-a35ccb628f38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-wrapper&quot;]/div[@class=&quot;modal__inner&quot;]/form[@class=&quot;code-modal__form-wrapper&quot;]/div[@class=&quot;code-modal__inputs-wrapper&quot;]</value>
+      <webElementGuid>42dcaebf-05a7-48e4-9b48-969c6cead83f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/form/div</value>
+      <webElementGuid>e7084fef-8be9-4a24-bf6d-7d606b82408a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm your code and conclude the transaction'])[1]/following::div[1]</value>
+      <webElementGuid>8818b2f7-7e2c-440d-919d-2e8e976335dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div</value>
+      <webElementGuid>c87aee74-2a31-4832-875b-6f2998a018b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'This field must be a number' or . = 'This field must be a number')]</value>
+      <webElementGuid>46957ed2-e9c7-4412-ad0a-07dbf34c128c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

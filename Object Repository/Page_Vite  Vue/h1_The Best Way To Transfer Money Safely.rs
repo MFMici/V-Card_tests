@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h1_The Best Way To Transfer Money Safely</name>
+   <tag></tag>
+   <elementGuidId>fc98d009-1dae-49bc-8b16-a2b4dccffc7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.home__container-slogan.fade-in</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>ce5c0b42-3a02-41c2-8d6b-9fdc22da5ad3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>home__container-slogan fade-in</value>
+      <webElementGuid>4edd564e-dd17-462f-9e0d-698929832a5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The Best Way To Transfer Money Safely</value>
+      <webElementGuid>b0be1ea9-ef0f-4f4b-b3cc-c7c4be6196a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;home__container&quot;]/div[@class=&quot;home__container-inner&quot;]/h1[@class=&quot;home__container-slogan fade-in&quot;]</value>
+      <webElementGuid>8b1bba22-4361-48d4-a491-b130a632d72e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/h1</value>
+      <webElementGuid>abdf2e05-34c8-4b2c-b0da-9d36cd7e9bd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='The Best Way To']/parent::*</value>
+      <webElementGuid>d65b9e83-5ea2-4d36-9e3d-dc2ee8cb608b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>7fe3370a-28b8-48df-bebf-e9fc25965ea0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'The Best Way To Transfer Money Safely' or . = 'The Best Way To Transfer Money Safely')]</value>
+      <webElementGuid>07f8cdea-197f-4d16-b078-469fbb1fb436</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

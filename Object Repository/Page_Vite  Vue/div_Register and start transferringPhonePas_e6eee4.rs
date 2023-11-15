@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Register and start transferringPhonePas_e6eee4</name>
+   <tag></tag>
+   <elementGuidId>cc7c4be8-1d91-4cf7-84d3-74b8b2316e6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#app</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fd668ca8-8879-40d3-99a4-59727d1dd049</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>app</value>
+      <webElementGuid>70886dc2-d2be-46de-b51f-6621132196a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Register and start transferringPhonePasswordPassword must be at least 8 characters longPassword must contain at least one uppercase letterPassword must contain at least one numberPassword must contain at least one special characterCreate V-Card Already have an account?</value>
+      <webElementGuid>779759f7-c496-4cda-8c91-6e9db9c66243</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)</value>
+      <webElementGuid>9407481b-34ab-4cdb-9fd0-7bd61e6171bb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='app']</value>
+      <webElementGuid>a4a1f85d-42ed-4e03-8d7f-d3c9584e1384</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div</value>
+      <webElementGuid>1086aa46-02a7-44d3-bb30-a5c2fa2f72c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'app' and (text() = 'Register and start transferringPhonePasswordPassword must be at least 8 characters longPassword must contain at least one uppercase letterPassword must contain at least one numberPassword must contain at least one special characterCreate V-Card Already have an account?' or . = 'Register and start transferringPhonePasswordPassword must be at least 8 characters longPassword must contain at least one uppercase letterPassword must contain at least one numberPassword must contain at least one special characterCreate V-Card Already have an account?')]</value>
+      <webElementGuid>5344a3d4-8b1f-45c5-9b52-342eab5ffcbe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

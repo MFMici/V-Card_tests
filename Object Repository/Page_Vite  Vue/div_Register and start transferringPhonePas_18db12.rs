@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Register and start transferringPhonePas_18db12</name>
+   <tag></tag>
+   <elementGuidId>bbc7f9d6-ff30-40c3-bb25-0cf7d0945f43</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#app</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8d004952-17de-4e82-82fd-48bc018c7142</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>app</value>
+      <webElementGuid>3ef8a76c-e0a0-4ee6-afb3-3a59886332a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Register and start transferringPhonePasswordThis field is requiredCreate V-Card Already have an account?</value>
+      <webElementGuid>52217cbc-04a7-4cc7-9b63-c3b8a25c8b14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)</value>
+      <webElementGuid>ccb15bc4-e8d3-4002-a58d-645a9f025644</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='app']</value>
+      <webElementGuid>19e32bee-400d-4c3b-8940-dac6b4e89305</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div</value>
+      <webElementGuid>fc9fd617-9944-481e-b41f-8439a7ede800</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'app' and (text() = 'Register and start transferringPhonePasswordThis field is requiredCreate V-Card Already have an account?' or . = 'Register and start transferringPhonePasswordThis field is requiredCreate V-Card Already have an account?')]</value>
+      <webElementGuid>57cfd9a2-5d3f-4175-8d7a-e4715482df57</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

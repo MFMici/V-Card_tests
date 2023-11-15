@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>A user tries to create a V-Card with a duplicated phone number</description>
+   <name>ExistingPhoneNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8aadcdb0-abd8-48c2-9f58-e57344134292</testCaseGuid>
+</TestCaseEntity>

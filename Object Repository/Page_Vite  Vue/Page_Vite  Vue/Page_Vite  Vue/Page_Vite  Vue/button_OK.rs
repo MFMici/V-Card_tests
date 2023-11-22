@@ -3,15 +3,15 @@
    <description></description>
    <name>button_OK</name>
    <tag></tag>
-   <elementGuidId>57690844-a8d4-446c-8a89-bce382e7547d</elementGuidId>
+   <elementGuidId>f4f8733f-6426-4272-90e5-215325fe1b24</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.swal2-confirm.swal2-styled.swal2-default-outline</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.swal2-confirm.swal2-styled.swal2-default-outline</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>dbc16e40-b821-4098-bd9b-ab76f21420bd</webElementGuid>
+      <webElementGuid>7d679216-fffb-4fd7-94cc-e7ebbd2d69f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f80ba6c7-5108-4fdc-8cac-1c4deed31779</webElementGuid>
+      <webElementGuid>74dc18d9-3c63-4ce0-8f3a-c5d1512b806c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-confirm swal2-styled swal2-default-outline</value>
-      <webElementGuid>fce46f47-fc85-48f8-b430-e89109b93200</webElementGuid>
+      <webElementGuid>94732f0b-cbf1-430c-bd9d-bd3ca0d8ccdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>OK</value>
-      <webElementGuid>53f9baef-16b7-47e5-9de0-26d15d341436</webElementGuid>
+      <webElementGuid>4bbbb62c-3ec7-49d5-a470-6ca343095997</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;swal2-shown swal2-height-auto&quot;]/body[@class=&quot;swal2-shown swal2-height-auto&quot;]/div[@class=&quot;swal2-container swal2-center swal2-backdrop-show&quot;]/div[@class=&quot;swal2-popup swal2-modal swal2-icon-success swal2-show&quot;]/div[@class=&quot;swal2-actions&quot;]/button[@class=&quot;swal2-confirm swal2-styled swal2-default-outline&quot;]</value>
-      <webElementGuid>bbc01e01-48e7-40d2-9cc6-a78abcad490b</webElementGuid>
+      <webElementGuid>94ddc730-313a-42b1-837b-ef5ee622f76f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>ab84ff3e-1efd-4515-984f-8af40a9d954a</webElementGuid>
+      <webElementGuid>1520488a-26ec-4c19-a4ef-0183ec230d6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='V-Card created with success.'])[1]/following::button[1]</value>
-      <webElementGuid>dc892a1e-7570-4fa1-9b8c-44878d78e015</webElementGuid>
+      <webElementGuid>fdffcbde-2e1e-479f-98e8-5c07b3cc1cc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to V-Card'])[1]/following::button[1]</value>
-      <webElementGuid>c4a7c83b-960a-49e6-9c26-4c446e273b7c</webElementGuid>
+      <webElementGuid>41e9ab8f-805d-4fb6-ae3c-51b612f50276</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::button[1]</value>
-      <webElementGuid>e278613a-1676-4e8a-afd3-c841a65813b3</webElementGuid>
+      <webElementGuid>0b841abd-c2aa-452a-920a-e35eb1111bc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::button[2]</value>
-      <webElementGuid>607e59c2-8798-40e3-a56b-c87e7a6368c9</webElementGuid>
+      <webElementGuid>e52163d9-3fb1-4331-815f-64cbb8556a8e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='OK']/parent::*</value>
-      <webElementGuid>5fc920b0-c56b-4c03-94e8-bb461d72f756</webElementGuid>
+      <webElementGuid>6d62cd3b-900e-443d-8d25-b78be16d7571</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/button</value>
-      <webElementGuid>e2d389fb-1a66-4ef2-9f26-5469616d8458</webElementGuid>
+      <webElementGuid>cd40dc66-2fd5-4053-bb21-d486d600e0dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'OK' or . = 'OK')]</value>
-      <webElementGuid>f5fb4e7d-6149-4bcf-80c0-441a50ed5333</webElementGuid>
+      <webElementGuid>55259373-b63c-4b0c-801d-53fa7bd4937a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

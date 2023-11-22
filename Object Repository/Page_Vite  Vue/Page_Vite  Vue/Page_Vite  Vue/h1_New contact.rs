@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Create V-Card</name>
+   <name>h1_New contact</name>
    <tag></tag>
-   <elementGuidId>d0ae5156-9b51-4876-b300-9bc4f27d4aa9</elementGuidId>
+   <elementGuidId>425de418-f711-45ae-ba61-5e908c28c0a5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.primary-button</value>
+         <value>h1.contact__title</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='']</value>
+         <value>//div[@id='app']/form/div/div/div/div/h1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,87 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>623aadbc-37e0-478b-9c35-afa20d0e0760</webElementGuid>
+      <value>h1</value>
+      <webElementGuid>4bb0a2d8-b3bd-411f-a10d-8b5f84381c79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>primary-button</value>
-      <webElementGuid>5dbc89ee-637b-46a1-a028-1075bd29f739</webElementGuid>
+      <value>contact__title</value>
+      <webElementGuid>1b48206c-5f7e-463d-82ac-3e4c567c67f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Create V-Card </value>
-      <webElementGuid>555774ec-3ef6-4db0-a78b-739578d6d5b7</webElementGuid>
+      <value>New contact</value>
+      <webElementGuid>3c6eb7ed-cc8c-4177-920f-87dd438fcad2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;register__form-wrapper&quot;]/div[@class=&quot;register__buttons-wrapper&quot;]/button[@class=&quot;primary-button&quot;]</value>
-      <webElementGuid>c81bd888-3a3b-4a15-9a45-090aa18453d1</webElementGuid>
+      <value>id(&quot;app&quot;)/form[1]/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;contact__header__wrapper&quot;]/h1[@class=&quot;contact__title&quot;]</value>
+      <webElementGuid>68f3bbc0-7d99-4212-a4db-700d2dee3b7f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@type='']</value>
-      <webElementGuid>f239c16a-af03-4039-a598-89adaf92a9f7</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div[2]/button</value>
-      <webElementGuid>1a0c56eb-f84e-4d85-8d48-ce2cbb0b8b6b</webElementGuid>
+      <value>//div[@id='app']/form/div/div/div/div/h1</value>
+      <webElementGuid>b4059237-573b-459e-b460-3b669529b947</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>b7181241-2f09-439c-af59-fd91e6cfe354</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/preceding::h1[1]</value>
+      <webElementGuid>9cbb1f75-5a67-44aa-9ab6-2884499ce6cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::button[1]</value>
-      <webElementGuid>6cf43763-284f-4261-ac5a-66bd81c2249f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::h1[1]</value>
+      <webElementGuid>3c1735a1-74bf-4a9f-82eb-943b3a84ae6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Create V-Card']/parent::*</value>
-      <webElementGuid>d19088ba-193c-4fc3-901c-da3bdb5d9fd7</webElementGuid>
+      <value>//*/text()[normalize-space(.)='New contact']/parent::*</value>
+      <webElementGuid>3822f18f-861f-42da-a34e-dd6ba22d463d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>8325741f-47f2-491d-b1aa-d8ee282a4b89</webElementGuid>
+      <value>//h1</value>
+      <webElementGuid>941f4625-ad00-4f00-80da-4d48199452cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[(text() = 'Create V-Card ' or . = 'Create V-Card ')]</value>
-      <webElementGuid>6fcb6c74-5658-46dd-9f78-f673b528e784</webElementGuid>
+      <value>//h1[(text() = 'New contact' or . = 'New contact')]</value>
+      <webElementGuid>61528a8f-b506-4ff6-80e5-26404a12885b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

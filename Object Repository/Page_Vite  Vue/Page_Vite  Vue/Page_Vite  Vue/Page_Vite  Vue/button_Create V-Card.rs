@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Create V-Card</name>
    <tag></tag>
-   <elementGuidId>d0ae5156-9b51-4876-b300-9bc4f27d4aa9</elementGuidId>
+   <elementGuidId>a326dff7-f2dd-40a3-a2ed-3adbd8a71fb2</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.primary-button</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@type='']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.primary-button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>623aadbc-37e0-478b-9c35-afa20d0e0760</webElementGuid>
+      <webElementGuid>f4120888-3fbc-4833-9d8b-843d03a48b16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>primary-button</value>
-      <webElementGuid>5dbc89ee-637b-46a1-a028-1075bd29f739</webElementGuid>
+      <webElementGuid>bcef192a-bd7a-4024-8aa0-d6feed0eb073</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Create V-Card </value>
-      <webElementGuid>555774ec-3ef6-4db0-a78b-739578d6d5b7</webElementGuid>
+      <webElementGuid>39905632-39c7-4752-befd-c24b4dba22e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;register__form-wrapper&quot;]/div[@class=&quot;register__buttons-wrapper&quot;]/button[@class=&quot;primary-button&quot;]</value>
-      <webElementGuid>c81bd888-3a3b-4a15-9a45-090aa18453d1</webElementGuid>
+      <webElementGuid>0092fb89-18b3-49a3-b1d6-c655312f686f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='']</value>
-      <webElementGuid>f239c16a-af03-4039-a598-89adaf92a9f7</webElementGuid>
+      <webElementGuid>1f7ddcd2-c537-4dff-8444-99bc333484c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/div/div[2]/button</value>
-      <webElementGuid>1a0c56eb-f84e-4d85-8d48-ce2cbb0b8b6b</webElementGuid>
+      <webElementGuid>2a32610a-e9ec-4e82-b15c-e3bac809670f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>b7181241-2f09-439c-af59-fd91e6cfe354</webElementGuid>
+      <webElementGuid>21b77c24-73d5-4e41-a5aa-e58b5ad15ea1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::button[1]</value>
-      <webElementGuid>6cf43763-284f-4261-ac5a-66bd81c2249f</webElementGuid>
+      <webElementGuid>e7748107-fa53-4916-8ebb-36c8ca22bc30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Create V-Card']/parent::*</value>
-      <webElementGuid>d19088ba-193c-4fc3-901c-da3bdb5d9fd7</webElementGuid>
+      <webElementGuid>af6a88cc-c272-43bc-9a1d-76dd1583eb42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>8325741f-47f2-491d-b1aa-d8ee282a4b89</webElementGuid>
+      <webElementGuid>f33bd724-5dbf-4590-b9fd-5995cc16a861</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Create V-Card ' or . = 'Create V-Card ')]</value>
-      <webElementGuid>6fcb6c74-5658-46dd-9f78-f673b528e784</webElementGuid>
+      <webElementGuid>06865469-63c6-4502-83d2-1c233f7ba055</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

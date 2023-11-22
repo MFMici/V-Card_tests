@@ -3,15 +3,15 @@
    <description></description>
    <name>button_Confirm</name>
    <tag></tag>
-   <elementGuidId>7f227eee-04e6-4b24-86e0-d10f33001c96</elementGuidId>
+   <elementGuidId>22c58ae2-1057-4849-81df-0e2c3d43e9ca</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>button.primary-button</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.primary-button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5f4ba022-a6c1-4a2f-8ff3-d224cd690265</webElementGuid>
+      <webElementGuid>98e2ed3b-5ef8-4461-8acd-802d5669ccbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>primary-button</value>
-      <webElementGuid>05743554-da73-483d-ab7a-be6d1a8a9cf3</webElementGuid>
+      <webElementGuid>df666685-b1ca-487a-89de-850db40573ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>caee523f-58b1-4627-8dec-c9dfd2ea2e87</webElementGuid>
+      <webElementGuid>329ec793-79d2-4d02-acc7-29cd5322ad9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Confirm</value>
-      <webElementGuid>10b2ff43-7604-4e7e-9a4e-99db444182e1</webElementGuid>
+      <webElementGuid>6da2592e-361f-4666-a22f-874f68e42da5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-wrapper&quot;]/div[@class=&quot;modal__inner&quot;]/form[@class=&quot;code-modal__form-wrapper&quot;]/div[@class=&quot;code-modal__buttons-wrapper&quot;]/button[@class=&quot;primary-button&quot;]</value>
-      <webElementGuid>c2d89dcf-ebd5-44e1-8edb-572479ceacab</webElementGuid>
+      <webElementGuid>4a01670c-8c57-41b8-a087-88ba53defd61</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>3747985c-e782-4a87-ad85-eb0863cb0646</webElementGuid>
+      <webElementGuid>96397292-1e59-4677-9ff7-9bf871ee417c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/form/div[2]/button</value>
-      <webElementGuid>9c2d4be4-359a-46d7-870d-311cdf2e7073</webElementGuid>
+      <webElementGuid>f1b4ceb1-4a7e-4969-a924-ba248e40e6ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm your code and conclude the transaction'])[1]/following::button[1]</value>
-      <webElementGuid>71a07a2f-f0e2-4cac-b9fa-8242ca1387b1</webElementGuid>
+      <webElementGuid>dc7e07bc-ce7c-471b-becc-b5b8088db5ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Register and start transferring'])[1]/preceding::button[1]</value>
-      <webElementGuid>ab7164cd-d91d-4088-881e-a41ad797f726</webElementGuid>
+      <webElementGuid>d5ee48cd-d859-40d4-a474-005854f62f50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::button[1]</value>
-      <webElementGuid>1bf6ce7b-c5e7-4757-9dae-7f4f98895f3d</webElementGuid>
+      <webElementGuid>21dbad23-9807-4462-a079-9dd6c8ba4ed9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Confirm']/parent::*</value>
-      <webElementGuid>e4b0e743-4d79-4f09-a3fe-70afd4342109</webElementGuid>
+      <webElementGuid>11b8bab1-dbf6-4e04-afa6-67745c713ab9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>fea923d8-87a1-424d-bcf7-c418abb5061b</webElementGuid>
+      <webElementGuid>7c2b01b1-cc0c-4649-a284-c20f85faeb8a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'submit' and (text() = ' Confirm' or . = ' Confirm')]</value>
-      <webElementGuid>af408385-e0ad-42d6-ba27-243f6946ad2b</webElementGuid>
+      <webElementGuid>6c0851e1-f7f3-4595-96b0-8bafcdb3bf3d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

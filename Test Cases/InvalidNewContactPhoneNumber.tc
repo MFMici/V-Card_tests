@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InvalidNewContactPhoneNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2e9a0a0-2b57-49a0-a0f2-a75b0836e06c</testCaseGuid>
+</TestCaseEntity>

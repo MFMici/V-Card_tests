@@ -23,7 +23,7 @@ WebUI.navigateToUrl('http://localhost:8080/')
 
 WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/a_Create new account'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/input_Phone_phone'), '932 512 991')
+WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/input_Phone_phone'), '932 512 932')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/input_Password_password'), 'cQwsLHPyit8M2f1kc4//jQ==')
 

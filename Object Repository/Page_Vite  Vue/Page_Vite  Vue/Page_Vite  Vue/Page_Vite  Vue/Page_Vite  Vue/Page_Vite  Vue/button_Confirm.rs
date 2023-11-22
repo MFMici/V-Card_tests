@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>addButtonContact</name>
+   <name>button_Confirm</name>
    <tag></tag>
-   <elementGuidId>6b5376a1-2e00-4fae-b031-d277281bc97a</elementGuidId>
+   <elementGuidId>aa7fb9af-4f90-4484-8c95-7e1628ef4daa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.main-button--disabled.primary-button</value>
+         <value>button.primary-button</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>40adb381-8e13-4545-ad0a-7bab758e0bf2</webElementGuid>
+      <webElementGuid>38dc4992-c349-4656-a8ef-9c9c715f1bc1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>main-button--disabled primary-button</value>
-      <webElementGuid>ac87dee8-7c6b-45bc-a18d-d787a3645979</webElementGuid>
+      <value>primary-button</value>
+      <webElementGuid>b366e361-570f-4b6b-9886-bd248bf5c2ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +38,23 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>e07c765f-157a-43fc-b602-19c96b828a2f</webElementGuid>
+      <webElementGuid>644a5553-afe1-4b00-ac31-eef29a1aae2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Add contact </value>
-      <webElementGuid>b9d1c289-650c-4658-9696-dd52b9d74a83</webElementGuid>
+      <value> Confirm</value>
+      <webElementGuid>4093e1f2-20cc-4987-abd7-296de20b4dd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/form[1]/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;contact__form-wrapper&quot;]/div[@class=&quot;contact__buttons-wrapper&quot;]/button[@class=&quot;main-button--disabled primary-button&quot;]</value>
-      <webElementGuid>5a84950e-f604-4869-a991-5ac40e182d74</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-wrapper&quot;]/div[@class=&quot;modal__inner&quot;]/form[@class=&quot;code-modal__form-wrapper&quot;]/div[@class=&quot;code-modal__buttons-wrapper&quot;]/button[@class=&quot;primary-button&quot;]</value>
+      <webElementGuid>41207867-3b21-487d-8651-c6f2555bfa83</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,55 +62,47 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>88c5d355-aa80-48b2-a78b-79a0d3cafdc8</webElementGuid>
+      <webElementGuid>8a2a08a2-95fa-412c-a0a8-c565943b24d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/form/div/div/div/div[2]/div[2]/button</value>
-      <webElementGuid>1328cfb3-6887-4065-aca5-5b9904a0785b</webElementGuid>
+      <value>//div[@id='app']/div/div/div/form/div[2]/button</value>
+      <webElementGuid>e7905e12-d6b6-449a-91ee-1ff24b4e8f1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::button[1]</value>
-      <webElementGuid>cfcc3e60-ef15-40d1-b20d-2e52906864ad</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm your code and conclude the transaction'])[1]/following::button[1]</value>
+      <webElementGuid>7450a189-258d-4a92-9d6d-d52133373066</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::button[1]</value>
-      <webElementGuid>6c77fa29-d9c5-4763-acff-408e8dae875f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register and start transferring'])[1]/preceding::button[1]</value>
+      <webElementGuid>17354976-f1dd-4651-a1ac-b68a1146b896</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>0f0f59c5-ef33-412d-97c9-c38b6a17bae7</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::button[1]</value>
+      <webElementGuid>d9bc62b8-ad87-4b32-aa2c-839d6615c579</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[1]</value>
-      <webElementGuid>61d86af2-98d3-4fab-9b5e-298760a455e4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Add contact']/parent::*</value>
-      <webElementGuid>683d1c1f-960b-4852-aa78-cebb3a4edfb0</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Confirm']/parent::*</value>
+      <webElementGuid>e4ad1428-98dd-48c0-baba-7d031fdb63d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,14 +110,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>2f39fb85-beec-4e05-8b5e-52ef9e8ff5af</webElementGuid>
+      <webElementGuid>3ff4e1e3-44b9-4df5-bc24-cb0d7a7e07bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Add contact ' or . = 'Add contact ')]</value>
-      <webElementGuid>c0c2d168-ca42-4787-a930-25f756deab8d</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = ' Confirm' or . = ' Confirm')]</value>
+      <webElementGuid>ce8da5f0-97d1-4831-84a8-04e38c4bde2e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InvalidSamePhoneNumber</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>18e8f5a1-508e-4ac3-a7ea-c862f7fb1f0c</testCaseGuid>
+</TestCaseEntity>

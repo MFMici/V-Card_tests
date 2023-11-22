@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Invalid Portuguese phone number</name>
+   <name>required_name</name>
    <tag></tag>
-   <elementGuidId>9569e159-42db-4021-a0ee-a245b206d96e</elementGuidId>
+   <elementGuidId>634b7a7b-ac5a-4a80-b4de-dc2c0507c51e</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/form/div/div/div/div[2]/div/div/span[2]/ul/li</value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>li</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div/div/div/span[2]/ul/li</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,63 +22,63 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>cef56c2e-3e77-4327-8db9-c561722c864a</webElementGuid>
+      <webElementGuid>17410751-1f62-4d3f-b474-ed3ef687834c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Invalid Portuguese phone number</value>
-      <webElementGuid>d748e43c-1ca5-427b-bcd4-0572d8352fbf</webElementGuid>
+      <value>This field is required</value>
+      <webElementGuid>3f5f6d3e-f710-460f-bb0f-5b0b80085ad6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;register__form-wrapper&quot;]/div[@class=&quot;register__inputs-wrapper&quot;]/div[@class=&quot;input__group-col&quot;]/span[@class=&quot;input__error-text&quot;]/ul[1]/li[1]</value>
-      <webElementGuid>f74b556e-965b-4dec-9ad4-f9d77c4d33a8</webElementGuid>
+      <value>id(&quot;app&quot;)/form[1]/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;contact__form-wrapper&quot;]/div[@class=&quot;contact__inputs-wrapper&quot;]/div[@class=&quot;input__group-col&quot;]/span[@class=&quot;input__error-text&quot;]/ul[1]/li[1]</value>
+      <webElementGuid>3bf18be4-e46c-4edb-8868-0644f79bf6ff</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/div/span[2]/ul/li</value>
-      <webElementGuid>917c0765-713d-450c-8608-1823b6f77da0</webElementGuid>
+      <value>//div[@id='app']/form/div/div/div/div[2]/div/div/span[2]/ul/li</value>
+      <webElementGuid>7f2dd6c8-65e5-410a-a036-7bf2d5634f9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::li[1]</value>
-      <webElementGuid>ef5ada9e-0a1d-4d26-b86c-cf6012638b6f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name'])[1]/following::li[1]</value>
+      <webElementGuid>29fd9506-c21a-4f0d-86d5-854d84e6d9a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register and start transferring'])[1]/following::li[1]</value>
-      <webElementGuid>81aac616-324c-4b57-a292-28db656bce8f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New contact'])[1]/following::li[1]</value>
+      <webElementGuid>8080860b-c00b-4103-91cd-3d51dbee21e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::li[1]</value>
-      <webElementGuid>d302515a-5d59-4e5d-9bbd-4c5c29696ebf</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::li[1]</value>
+      <webElementGuid>c5db1f7c-c083-4105-8f81-98ec0401ad3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Invalid Portuguese phone number']/parent::*</value>
-      <webElementGuid>5160a9d2-05f0-4c0f-876f-4fb52305f40c</webElementGuid>
+      <value>//*/text()[normalize-space(.)='This field is required']/parent::*</value>
+      <webElementGuid>9ce743e8-ec27-4140-91c3-e691559bfdfa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,14 +86,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li</value>
-      <webElementGuid>2c3bd3f4-9f5e-4de7-bbae-b06d2cf11b4a</webElementGuid>
+      <webElementGuid>96884705-1a4b-47af-8b93-9b661e203481</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[(text() = 'Invalid Portuguese phone number' or . = 'Invalid Portuguese phone number')]</value>
-      <webElementGuid>18f4a82e-b86e-45c1-8d51-db867942b1a2</webElementGuid>
+      <value>//li[(text() = 'This field is required' or . = 'This field is required')]</value>
+      <webElementGuid>aa120067-b6ec-498f-bc71-c56c37e3fbd2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

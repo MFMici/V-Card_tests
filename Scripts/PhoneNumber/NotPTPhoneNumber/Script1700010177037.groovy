@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/a_Create new accoun
 
 WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Phone_phone'), '1')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/li_Invalid Portuguese phone number'))
+WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/invalid_PT_number'))
 
 WebUI.closeBrowser()
 

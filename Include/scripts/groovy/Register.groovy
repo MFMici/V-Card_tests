@@ -53,4 +53,9 @@ class Register {
 	public void i_insert_in_the_password_field(String string) {
 		WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Password_password'), string)
 	}
+
+	@Then("I insert {string} in the name field")
+	public void i_insert_in_the_name_field(String string) {
+		WebUI.setText(findTestObject('Page_Vite  Vue/Page_Vite  Vue/input_Name_name'), string)
+	}
 }

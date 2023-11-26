@@ -21,39 +21,39 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/a_Create new account'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/input_Phone_phone'), '932 512 932')
+WebUI.setText(findTestObject('null'), '932 512 932')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/input_Password_password'), 'cQwsLHPyit8M2f1kc4//jQ==')
+WebUI.setEncryptedText(findTestObject('null'), 'cQwsLHPyit8M2f1kc4//jQ==')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/button_Create V-Card'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/input_Confirm your code and conclude the tr_7973d8'), 
+WebUI.setText(findTestObject('null'), 
     '2')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/input_Confirm your code and conclude the tr_440cde'), 
+WebUI.setText(findTestObject('null'), 
     '2')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/input_Confirm your code and conclude the tr_006784'), 
+WebUI.setText(findTestObject('null'), 
     '2')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/input_Confirm your code and conclude the tr_1abd07'), 
+WebUI.setText(findTestObject('null'), 
     '2')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/button_Confirm'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/button_OK'))
+WebUI.click(findTestObject('null'))
 
 WebUI.navigateToUrl('http://localhost:8080/new-contact')
 
-WebUI.setText(findTestObject('Page_Vite  Vue/Page_Vite  Vue/input_Name_name'), 'micael')
+WebUI.setText(findTestObject('null'), 'micael')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/input_Phone_phone'), '992 562 821')
+WebUI.setText(findTestObject('null'), '992 562 821')
 
-WebUI.setText(findTestObject('Page_Vite  Vue/Page_Vite  Vue/input_Name_name'), '')
+WebUI.setText(findTestObject('null'), '')
 
-WebUI.click(findTestObject('Page_Vite  Vue/Page_Vite  Vue/required_name'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('null'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

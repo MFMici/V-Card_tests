@@ -46,13 +46,24 @@ import cucumber.api.java.en.When
 class VerificationCode {
 	@When("I insert {string} in Confirmation Modal")
 	public void i_insert_in_Confirmation_Modal(String string) {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Confirm your code and conclude the tr_7973d8'), string)
 
-		WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Confirm your code and conclude the tr_440cde'), string)
+		WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code1_ConfirmationModal'),
+				string)
 
-		WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Confirm your code and conclude the tr_006784'), string)
+		WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code2_ConfirmationModal'),
+				string)
 
-		WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_This field must be a number_code4'), string)
+		WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code3_ConfirmationModal'),
+				string)
+
+		WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code4_ConfirmationModal'),
+				string)
+	}
+
+	@When("I insert one {string} in Confirmation Modal")
+	public void i_insert_one_in_Confirmation_Modal(String string) {
+
+		WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code1_ConfirmationModal'),
+				string)
 	}
 }
-

@@ -21,11 +21,11 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/a_Create new account'))
+WebUI.click(findTestObject('Buttons/a_Create new account_FirstScreen'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Phone_phone'), '1')
+WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '1')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/invalid_PT_number'))
+WebUI.click(findTestObject('elem_Invalid Portuguese phone number'))
 
 WebUI.closeBrowser()
 

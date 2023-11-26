@@ -21,25 +21,26 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/a_Create new account'))
+WebUI.click(findTestObject('Buttons/a_Create new account_FirstScreen'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Phone_phone'), '913 245 123')
+WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '913 245 123')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite  Vue/input_Password_password'), 'PEFQY2aWHogqppfEVi3FQw==')
+WebUI.setEncryptedText(findTestObject('Inputs/input_Password_password_Register'), 'PEFQY2aWHogqppfEVi3FQw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/button_Create V-Card'))
+WebUI.click(findTestObject('Buttons/button_Create V-Card'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Confirm your code and conclude the tr_7973d8'), 'a')
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code1_ConfirmationModal'), 'a')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Confirm your code and conclude the tr_440cde'), 'd')
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code2_ConfirmationModal'), 'd')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Confirm your code and conclude the tr_006784'), '3')
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code3_ConfirmationModal'), '3')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_This field must be a number_code4'), '2')
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code4_ConfirmationModal'), '2')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/span_This field must be a number'))
+WebUI.click(findTestObject('elem_This field must be a number'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Vite  Vue/span_This field must be a number'), 'This field must be a number')
+WebUI.verifyElementText(findTestObject('elem_This field must be a number'), 'This field must be a number')
 
 WebUI.closeBrowser()
+
 

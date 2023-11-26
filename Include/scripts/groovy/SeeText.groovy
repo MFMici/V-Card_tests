@@ -46,12 +46,22 @@ import cucumber.api.java.en.When
 class SeeText {
 	@Then("I see the text {string}")
 	public void i_see_the_text(String string) {
-		if (string.contains("Page_Vite")) {
-			WebUI.click(findTestObject('Page_Vite  Vue/li_' + string));
-			return;
-		}
-		if(string.contains("Object Repository")) {
-			WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/li_' + string));
-		}
+
+		WebUI.verifyElementVisible(findTestObject('Object Repository/elem_' + string))
+
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -46,12 +46,14 @@ import cucumber.api.java.en.When
 class Register {
 	@When("I insert {string} in the phone field")
 	public void i_insert_in_the_phone_field(String string) {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Phone_phone'), string)
+		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), string)
+
 	}
 
 	@When("I insert {string} in the password field")
 	public void i_insert_in_the_password_field(String string) {
-		WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Password_password'), string)
+		WebUI.setText(findTestObject('Inputs/input_Password_password_Register'), string )
+
 	}
 
 	@Then("I insert {string} in the name field")
@@ -59,3 +61,4 @@ class Register {
 		WebUI.setText(findTestObject('Page_Vite  Vue/Page_Vite  Vue/input_Name_name'), string)
 	}
 }
+

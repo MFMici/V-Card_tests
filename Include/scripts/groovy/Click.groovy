@@ -46,6 +46,7 @@ import cucumber.api.java.en.When
 class Click {
 	@When("I click on the {string} button")
 	public void i_click_on_the_button(String btnLabel) {
-		WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/button_' + btnLabel))
+		WebUI.click(findTestObject('Buttons/button_' + btnLabel ))
+
 	}
 }

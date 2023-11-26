@@ -21,19 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/a_Create new account'))
+WebUI.click(findTestObject('Buttons/a_Create new account_FirstScreen'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Phone_phone'), '919 191 821')
+WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '919 191 821')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite  Vue/input_Password_password'), 'PEFQY2aWHohZLPATGRAYLw==')
+WebUI.setEncryptedText(findTestObject('Inputs/input_Password_password_Register'), 'PEFQY2aWHohZLPATGRAYLw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/button_Create V-Card'))
+WebUI.click(findTestObject('Buttons/button_Create V-Card'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Confirm your code and conclude the tr_7973d8'), '9')
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code1_ConfirmationModal'), 
+    '9')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Confirm your code and conclude the tr_7973d8'), '" "')
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code1_ConfirmationModal'), 
+    '" "')
 
-WebUI.click(findTestObject('Page_Vite  Vue/span_This field is required'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_Password must contain at least one uppercase letter</name>
+   <tag></tag>
+   <elementGuidId>c74c0dfe-8685-4645-b2af-10c2554496d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div/div[2]/span[2]/ul/li[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>851cd64e-6cd8-4aee-b878-293957ebf8b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Password must contain at least one uppercase letter</value>
+      <webElementGuid>27ddf765-7712-4942-9000-95b60375a674</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;register__form-wrapper&quot;]/div[@class=&quot;register__inputs-wrapper&quot;]/div[@class=&quot;input__group-col&quot;]/span[@class=&quot;input__error-text&quot;]/ul[1]/li[2]</value>
+      <webElementGuid>01bde87b-d828-461d-9b94-c77d2b2a7957</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/div[2]/span[2]/ul/li[2]</value>
+      <webElementGuid>7f14d93d-1377-41b3-a207-719df91de4c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must be at least 8 characters long'])[1]/following::li[1]</value>
+      <webElementGuid>dc4ed62f-2461-476a-b1fb-31a639b6eb27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::li[2]</value>
+      <webElementGuid>0291721a-8dee-46ea-ac25-971405a8400a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must contain at least one number'])[1]/preceding::li[1]</value>
+      <webElementGuid>e694adb5-fd47-4db9-9edf-ee08a74df208</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must contain at least one special character'])[1]/preceding::li[2]</value>
+      <webElementGuid>105d3204-a580-4d12-a881-fda627d5a6e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Password must contain at least one uppercase letter']/parent::*</value>
+      <webElementGuid>827d1a20-c9cd-4ea2-ab77-0f44ecc7a5c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]</value>
+      <webElementGuid>d7f9a01f-5ad4-4ba2-95af-045e0025c75a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Password must contain at least one uppercase letter' or . = 'Password must contain at least one uppercase letter')]</value>
+      <webElementGuid>b8a36179-426f-4171-ba15-2b1e36de5831</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

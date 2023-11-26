@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/a_Create new account'))
+WebUI.click(findTestObject('Buttons/a_Create new account_FirstScreen'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Phone_phone'), '917 582 341')
+WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '917 582 341')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite  Vue/input_Password_password'), 'KPTvxy6UfMg=')
+WebUI.setEncryptedText(findTestObject('Inputs/input_Password_password_Register'), 'KPTvxy6UfMg=')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/li_Password must contain at least one speci_394e8d'))
+WebUI.click(findTestObject('elem_Password must contain at least one special character'))
 
 WebUI.closeBrowser()
 

@@ -21,13 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/a_Create new account'))
+WebUI.click(findTestObject('Buttons/a_Create new account_FirstScreen'))
 
-WebUI.setText(findTestObject('Page_Vite  Vue/input_Phone_phone'), '931333444')
+WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '931333444')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/input_Phone_phone'), '" "')
+WebUI.setText(findTestObject('Inputs/input_Password_password_Register'), '" "')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/li_This field is required'))
+WebUI.click(findTestObject('null'))
 
 WebUI.closeBrowser()
 

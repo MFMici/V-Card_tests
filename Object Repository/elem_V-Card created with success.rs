@@ -6,12 +6,12 @@
    <elementGuidId>dc008534-e299-4e5a-aec2-2ef0fcfc2b08</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='swal2-html-container']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#swal2-html-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='swal2-html-container']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>77b77822-3d0d-4975-977e-ed5edf7c10b4</webElementGuid>
+      <webElementGuid>a402485c-253b-4589-b1a4-c2a05ab9689f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>swal2-html-container</value>
-      <webElementGuid>d39f53a9-d5df-4ea0-820e-ec09f195c517</webElementGuid>
+      <webElementGuid>4187a9cc-9694-4091-9ea6-a572c23c2420</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>swal2-html-container</value>
-      <webElementGuid>2e23a5ed-5028-480a-a4a0-04cc2e09f748</webElementGuid>
+      <webElementGuid>d72ea369-ffa6-486e-b562-ac4f5903864c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>V-Card created with success.</value>
-      <webElementGuid>6cf1f2b5-1e56-4d52-8659-be6b1102b3e3</webElementGuid>
+      <webElementGuid>400db104-794f-4b43-a59b-4bf266c1fbea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;swal2-html-container&quot;)</value>
-      <webElementGuid>aa22c5c3-79ee-4757-93f8-259de64aba4f</webElementGuid>
+      <webElementGuid>02f03c8b-3195-43f1-90bc-242fa8501db1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='swal2-html-container']</value>
-      <webElementGuid>abf9e13f-1abd-4d85-a108-aeb13ec93e97</webElementGuid>
+      <webElementGuid>75d12593-d28f-4024-a3a0-88c92c6d6608</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Welcome to V-Card'])[1]/following::div[1]</value>
-      <webElementGuid>0cded632-cdfd-4d17-a8e8-2284f408d5c2</webElementGuid>
+      <webElementGuid>b8feafa2-46ff-4e09-a528-eeab7841036d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[6]</value>
-      <webElementGuid>361b8b31-e2e7-440c-a086-fc0a170f5d08</webElementGuid>
+      <webElementGuid>3521d7cd-7fa3-424b-ab49-05045841729e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[5]</value>
-      <webElementGuid>c2d75138-37a2-4f38-af4e-4c4c50078429</webElementGuid>
+      <webElementGuid>b41ce66e-d9c3-46a9-aa30-ed976f976036</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::div[5]</value>
-      <webElementGuid>a4a3dcfa-f6f6-475a-99a3-b8446ccbb3af</webElementGuid>
+      <webElementGuid>e322d1de-3cbb-4dea-960a-8d3658d76e03</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,15 +102,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='V-Card created with success.']/parent::*</value>
-      <webElementGuid>93c3fede-fd36-42d7-9092-62714ab8fe8f</webElementGuid>
+      <webElementGuid>fa29521d-3ab6-45bd-bc4d-c0ae92bc4ea9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[2]</value>
-      <webElementGuid>28372f22-04eb-4c84-a261-ded8a4bc1b86</webElementGuid>
+      <value>//body/div[3]/div/div[2]</value>
+      <webElementGuid>765cecba-1611-4a6d-b2ff-ee99ad24ace1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'swal2-html-container' and (text() = 'V-Card created with success.' or . = 'V-Card created with success.')]</value>
-      <webElementGuid>5fd58d48-a9f4-4256-8739-18af30f41ce9</webElementGuid>
+      <webElementGuid>f2f20979-f797-4411-a52a-2ae74d6cd574</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

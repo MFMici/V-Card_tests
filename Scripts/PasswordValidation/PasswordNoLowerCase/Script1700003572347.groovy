@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8080/')
 
-WebUI.click(findTestObject('Buttons/a_Create new account_FirstScreen'))
+WebUI.click(findTestObject('Buttons/button_Create new account'))
 
 WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '912 345 123')
 

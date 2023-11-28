@@ -19,17 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8080/')
+WebUI.navigateToUrl('https://code-git-develop-grupoz.vercel.app?_vercel_share=9lbtB3fPg6iBJ5XWbJohjvrTjzOna9WD')
 
 WebUI.click(findTestObject('Buttons/button_Create new account'))
 
 WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '934 512 345')
 
-WebUI.setEncryptedText(findTestObject('Inputs/input_Password_password_Register'), 'KPTvxy6UfMg=')
+WebUI.setText(findTestObject('Inputs/input_Password_password_Register'), 'micael1!A')
 
-WebUI.clearText(findTestObject('Inputs/input_Password_password_Register'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Buttons/button_Create V-Card'))
 
-WebUI.click(findTestObject('null'))
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code1_ConfirmationModal'), '9')
+
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code2_ConfirmationModal'), '9')
+
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code3_ConfirmationModal'), '9')
+
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code4_ConfirmationModal'), '9')
+
+WebUI.click(findTestObject('Buttons/button_Confirm'))
+
+WebUI.click(findTestObject('Buttons/button_OK'))
+
+WebUI.verifyElementVisible(findTestObject('elem_Dashboard'))
 
 WebUI.closeBrowser()
 

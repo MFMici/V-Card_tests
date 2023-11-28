@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_Dashboard</name>
+   <tag></tag>
+   <elementGuidId>e657a44a-ea0b-41d3-a0a1-396ae1b03571</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dashboard__container-top-content.t-align-left</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>19c845b2-0c22-410e-b3a8-ae5abdbc5442</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dashboard__container-top-content t-align-left</value>
+      <webElementGuid>b9ea2320-c488-45b4-828b-c4f21964ccce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Dashboard </value>
+      <webElementGuid>8e19e0e2-ee36-4ddb-ba06-843750d6c50c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column-start&quot;]/div[@class=&quot;dashboard__container-top&quot;]/div[@class=&quot;dashboard__row-upper&quot;]/div[@class=&quot;dashboard__container-top-content t-align-left&quot;]</value>
+      <webElementGuid>79b1a45c-0f94-42d4-a41d-2fe63f37c58b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/div</value>
+      <webElementGuid>aa70f415-126c-4491-97a3-1527fcce90a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$2064.59'])[1]/preceding::div[2]</value>
+      <webElementGuid>3f459c06-5879-4939-9b05-163d62fbba01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Dashboard']/parent::*</value>
+      <webElementGuid>d3ba79c0-3050-43c5-b18a-6301f65faa0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div</value>
+      <webElementGuid>18093ba5-5cde-4302-a0b8-064dc51232d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Dashboard ' or . = ' Dashboard ')]</value>
+      <webElementGuid>bd79f3cf-ca82-4e9b-a04b-7cc8f24b2830</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

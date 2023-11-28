@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Confirm</name>
+   <name>elem_Welcome to V-Card</name>
    <tag></tag>
-   <elementGuidId>fad7fff8-89cc-48dd-bf13-887b6850cd71</elementGuidId>
+   <elementGuidId>7ba116f1-523a-4d2d-9bac-25ae90d57776</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>button.primary-button</value>
+         <value>#swal2-title</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//h2[@id='swal2-title']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>28bfc990-8764-43e7-87e3-552c42956543</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>cfbddb03-302b-4cde-a36d-3d894c99ca20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>primary-button</value>
-      <webElementGuid>7fbe18bf-06f0-4ad3-aa57-67331cf1a6f1</webElementGuid>
+      <value>swal2-title</value>
+      <webElementGuid>dd1773c5-94a8-45be-a60a-8e203267b6d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>b59a4cd6-55b3-4bb1-a430-db7090f157a2</webElementGuid>
+      <value>swal2-title</value>
+      <webElementGuid>9df8b06a-c7a3-4e06-980d-486cfa354027</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Confirm</value>
-      <webElementGuid>08823d96-bf4d-4751-a341-00a722452f7d</webElementGuid>
+      <value>Welcome to V-Card</value>
+      <webElementGuid>d7fa1151-439c-47b9-a587-d5c242a2a9c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-wrapper&quot;]/div[@class=&quot;modal__inner&quot;]/form[@class=&quot;code-modal__form-wrapper&quot;]/div[@class=&quot;code-modal__buttons-wrapper&quot;]/button[@class=&quot;primary-button&quot;]</value>
-      <webElementGuid>b6e6b2d9-79c1-4c1c-a875-8d43c9f9dc8e</webElementGuid>
+      <value>id(&quot;swal2-title&quot;)</value>
+      <webElementGuid>cfed0c64-acf2-43e2-85d6-506ce4281aa3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>47a6f073-2a36-42e8-8a47-18ddd970b5bd</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/form/div[2]/button</value>
-      <webElementGuid>b8b1e96c-6eaf-4b29-8615-5d934ce173c3</webElementGuid>
+      <value>//h2[@id='swal2-title']</value>
+      <webElementGuid>fc1e136b-22f9-4661-843c-341b444e658b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm your code and conclude the transaction'])[1]/following::button[1]</value>
-      <webElementGuid>af7a6f1d-a924-4bd5-829f-edcc69b8f392</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::h2[1]</value>
+      <webElementGuid>abe7cae5-25f4-4ab1-9232-57a7318f32c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register and start transferring'])[1]/preceding::button[1]</value>
-      <webElementGuid>6ee89d41-f348-4b48-a938-6a83d65b0a49</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h2[1]</value>
+      <webElementGuid>961f72fb-a451-4894-9285-dfc609eeba46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::button[1]</value>
-      <webElementGuid>344b028d-5069-4624-8e03-8c87337ef202</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='V-Card created with success.'])[1]/preceding::h2[1]</value>
+      <webElementGuid>f5e8340f-4415-428b-b0c3-de0f1d9b1481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::h2[1]</value>
+      <webElementGuid>a4568144-6c10-4d25-a9ce-2ce87515f195</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Welcome to V-Card']/parent::*</value>
+      <webElementGuid>43195549-eb4a-40de-aa7f-caa97ddc97d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>46225c48-4788-4b8b-b086-d3d80ba31522</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>d5241297-6f69-47b2-a93e-eb0271c3ec66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = ' Confirm' or . = ' Confirm')]</value>
-      <webElementGuid>8506e908-328f-47cc-99ee-b362aaae1dca</webElementGuid>
+      <value>//h2[@id = 'swal2-title' and (text() = 'Welcome to V-Card' or . = 'Welcome to V-Card')]</value>
+      <webElementGuid>06280a34-d313-4cb2-89dd-87626cc961e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -46,9 +46,7 @@ import cucumber.api.java.en.When
 class SeeText {
 	@Then("I see the text {string}")
 	public void i_see_the_text(String string) {
-
 		WebUI.verifyElementVisible(findTestObject('Object Repository/elem_' + string))
-
 	}
 }
 

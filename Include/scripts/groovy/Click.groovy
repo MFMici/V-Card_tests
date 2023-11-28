@@ -47,6 +47,5 @@ class Click {
 	@When("I click on the {string} button")
 	public void i_click_on_the_button(String btnLabel) {
 		WebUI.click(findTestObject('Buttons/button_' + btnLabel ))
-
 	}
 }

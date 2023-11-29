@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_Total Balance</name>
+   <tag></tag>
+   <elementGuidId>6b5f8486-6c0f-4947-8f50-97e46a3d475c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.t-align-left.dashboard__total-balance</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div[2]/div/p[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>5ee8c820-e64f-4a4f-abb3-4ea4ed8b20d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>t-align-left dashboard__total-balance</value>
+      <webElementGuid>adc5f63a-e402-4eff-8c16-ac377cb065e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Total Balance</value>
+      <webElementGuid>2307c6ef-cb45-4aec-96b6-59daae969ae2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column-start&quot;]/div[@class=&quot;dashboard__container-top&quot;]/div[@class=&quot;dashboard__row-bottom&quot;]/div[@class=&quot;dashboard__container-top-content&quot;]/p[@class=&quot;t-align-left dashboard__total-balance&quot;]</value>
+      <webElementGuid>7a692ca2-8fe9-4ac6-ae37-cab5a6476470</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div[2]/div/p[2]</value>
+      <webElementGuid>82d13113-e40f-423e-8eab-24d3a77de2fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::p[2]</value>
+      <webElementGuid>a2c18f12-0ab6-4ca1-9ba4-db2a8e43d0c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$2064.59'])[1]/preceding::p[1]</value>
+      <webElementGuid>a11bc2da-1b48-41ca-95e6-11aa0f6bc23c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]</value>
+      <webElementGuid>b351b3b3-bc60-4040-b046-7bc307292c3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Total Balance' or . = 'Total Balance')]</value>
+      <webElementGuid>ae2ba6dc-3ab7-4cfd-9c8d-f7dc48c6defd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

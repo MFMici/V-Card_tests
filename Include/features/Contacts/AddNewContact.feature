@@ -110,5 +110,24 @@ Scenario: User filter contacts from his list
     Then I click on the filtered contact
     And I close the browser
     
-    
+#This Gerkin cannot be tested, because it implies making a Android App to actully test the feature
+
+#@ImportContacts
+#Scenario: User imports contacts from his phone contacts
+    #Given I have the browser open
+    #When I navigate to the URL "https://code-git-develop-grupoz.vercel.app/?_vercel_share=9lbtB3fPg6iBJ5XWbJohjvrTjzOna9WD"
+    #And I click on the "Create new account" button
+    #And I insert "913572166" in the phone field
+    #And I insert "Dasidjas@1@" in the password field
+    #And I click on the "Create V-Card" button
+    #And I insert "9" in Confirmation Modal
+    #And I click on the "Confirm" button
+    #And I click on the "OK" button
+    #And I click on the "Contacts" button
+    #And I click on the "Add Contacts" button
+    #And I click on the "Import contacts" button
+    #And I choose the contacts I want to import
+    #And I click on the "Done" button
+    #Then I see the imported contact in my contact list
+    #And I close the browser
     

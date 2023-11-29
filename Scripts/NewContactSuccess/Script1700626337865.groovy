@@ -19,46 +19,37 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8080/')
+WebUI.navigateToUrl('https://code-git-develop-grupoz.vercel.app?_vercel_share=9lbtB3fPg6iBJ5XWbJohjvrTjzOna9WD')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/a_Create new account'))
+WebUI.click(findTestObject('Buttons/button_Create new account'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/input_Phone_phone'), '915 555 323')
+WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '915 777 323')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/input_Password_password'), 
-    'X3EvDjZn2gNXW1wo+iuPRA==')
+WebUI.setEncryptedText(findTestObject('Inputs/input_Password_password_Register'), 'X3EvDjZn2gNXW1wo+iuPRA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/button_Create V-Card'))
+WebUI.click(findTestObject('Buttons/button_Create V-Card'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/input_Confirm your code and conclude the tr_7973d8'), 
-    '9')
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code1_ConfirmationModal'), '9')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/input_Confirm your code and conclude the tr_440cde'), 
-    '9')
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code2_ConfirmationModal'), '9')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/input_Confirm your code and conclude the tr_006784'), 
-    '9')
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code3_ConfirmationModal'), '9')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/input_Confirm your code and conclude the tr_1abd07'), 
-    '9')
+WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code4_ConfirmationModal'), '9')
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/button_Confirm'))
+WebUI.click(findTestObject('Buttons/button_Confirm'))
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/button_OK'))
+WebUI.click(findTestObject('Buttons/button_OK'))
 
-WebUI.navigateToUrl('http://localhost:8080/new-contact')
+WebUI.click(findTestObject('Buttons/button_Contacts'))
 
-WebUI.click(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/h1_New contact'))
+WebUI.click(findTestObject('Buttons/button_Plus'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/input_Name_name'), 'ricardo')
+WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '911 111 111')
 
-WebUI.setText(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/input_Phone_phone_1'), '911 111 111')
+WebUI.click(findTestObject('Buttons/button_Add contact'))
 
-WebUI.click(findTestObject('Page_Vite  Vue/button_addButtonContact'))
-
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Vite  Vue/Page_Vite  Vue/Page_Vite  Vue/h2_Success'))
-
-WebUI.click(findTestObject('Page_Vite  Vue/button_OK'))
+WebUI.click(findTestObject('Buttons/button_OK'))
 
 WebUI.closeBrowser()
 

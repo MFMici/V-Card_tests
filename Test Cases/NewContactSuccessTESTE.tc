@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SeeContact</name>
+   <name>NewContactSuccessTESTE</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>ee8d3a56-24a1-4427-9ef5-6dc5eff0b3c0</testCaseGuid>
+   <testCaseGuid>b3f65483-4aee-4606-87e0-2c74d80a73a8</testCaseGuid>
 </TestCaseEntity>

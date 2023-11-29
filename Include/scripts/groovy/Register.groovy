@@ -47,13 +47,11 @@ class Register {
 	@When("I insert {string} in the phone field")
 	public void i_insert_in_the_phone_field(String string) {
 		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), string)
-
 	}
 
 	@When("I insert {string} in the password field")
 	public void i_insert_in_the_password_field(String string) {
 		WebUI.setText(findTestObject('Inputs/input_Password_password_Register'), string )
-
 	}
 
 	@Then("I insert {string} in the name field")

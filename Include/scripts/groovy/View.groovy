@@ -43,19 +43,9 @@ import cucumber.api.java.en.When
 
 
 
-class Click {
-	@When("I click on the {string} button")
-	public void i_click_on_the_button(String btnLabel) {
-		WebUI.click(findTestObject('Buttons/button_' + btnLabel ))
-	}
-	
-	@When("I click on the contact {string}")
-	public void i_click_on_the_contact(String string) {
-		WebUI.click(findTestObject('Page_Vite  Vue/elem_filtered'))
-	}
-	
-	@When("I click on the filtered contact")
-	public void i_click_on_the_filtered_contact() {
-		WebUI.click(findTestObject('Page_Vite  Vue/elem_filtered'))
+class View {
+	@Then("I insert {string} in the Contacts search")
+	public void i_insert_in_the_Contacts_search(String string) {
+			WebUI.setText(findTestObject('elem_Contacts search'), string)
 	}
 }

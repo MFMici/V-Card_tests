@@ -16,8 +16,8 @@ Scenario: Get to the add contact
 		And I click on the "OK" button
 		And I click on the "Contacts" button
     #If it seems stuck, dont panic c:	
-		And I click on the "Plus" button
-		Then I close the browser
+		Then I click on the "Plus" button
+		And I close the browser
 
 @AddContact
 Scenario: User search for a contact
@@ -37,8 +37,8 @@ Scenario: User search for a contact
 		And I insert "911111111" in the phone field
 		And I click on the "Add contact" button
 		And I click on the "OK" button
-		And I see the text "911111111"
-		Then I close the browser
+		Then I see the text "911111111"
+		And I close the browser
 
 @VerifyIfContactIsVCardUser
 Scenario: User search for a contact
@@ -58,8 +58,8 @@ Scenario: User search for a contact
 		And I insert "911111111" in the phone field
 		And I click on the "Add contact" button
 		And I click on the "OK" button
-		And I see the text "V-Card User"
-		Then I close the browser
+		Then I see the text "V-Card User"
+		And I close the browser
 
 @VerifyIfContactIsImported
 Scenario: User search for a contact
@@ -79,8 +79,8 @@ Scenario: User search for a contact
 		And I insert "933675431" in the phone field
 		And I click on the "Add contact" button
 		And I click on the "OK" button
-		And I see the text "Imported Contact"
-		Then I close the browser
+		Then I see the text "Imported Contact"
+		And I close the browser
 
 
 @FilterContacts   
@@ -107,8 +107,8 @@ Scenario: User filter contacts from his list
     And I click on the "Add contact" button
     And I click on the "OK" button
 	  And I insert "933675431" in the Contacts search
-    And I click on the filtered contact
-    Then I close the browser
+    Then I click on the filtered contact
+    And I close the browser
     
     
     

@@ -12,10 +12,10 @@ I want to see my dashboard
     And I click on the "Create V-Card" button
     And I insert "9" in Confirmation Modal
     And I click on the "Confirm" button
-    Then I see the text "Welcome to V-Card"
-    Then I click on the "Ok" button
+    And I see the text "Welcome to V-Card"
+    And I click on the "Ok" button
     Then I see the text "Dashboard"
-    Then I close the browser
+    And I close the browser
       
 
 @UseNavBarToGoToHome
@@ -28,12 +28,12 @@ I want to see my dashboard
     And I click on the "Create V-Card" button
     And I insert "9" in Confirmation Modal
     And I click on the "Confirm" button
-    Then I see the text "Welcome to V-Card"
-    Then I click on the "Ok" button
-    Then I see the text "Dashboard"
-    Then I click on the "Contacts" button
+    And I see the text "Welcome to V-Card"
+    And I click on the "Ok" button
+    And I see the text "Dashboard"
+    And I click on the "Contacts" button
     Then I click on the "Home" button
-    Then I close the browser      
+    And I close the browser      
       
 @SeeMoreAllTransacations
   Scenario: See All transacations by clicking on the dashboard button
@@ -45,11 +45,11 @@ I want to see my dashboard
     And I click on the "Create V-Card" button
     And I insert "9" in Confirmation Modal
     And I click on the "Confirm" button
-    Then I see the text "Welcome to V-Card"
-    Then I click on the "Ok" button
-    Then I see the text "Dashboard"
+    And I see the text "Welcome to V-Card"
+    And I click on the "Ok" button
+    And I see the text "Dashboard"
     Then I click on the "View all" button
-    Then I close the browser 
+    And I close the browser 
     
 @SeeRecentTransacations
   Scenario: See most recent transacations on the dashboard
@@ -61,11 +61,11 @@ I want to see my dashboard
     And I click on the "Create V-Card" button
     And I insert "9" in Confirmation Modal
     And I click on the "Confirm" button
-    Then I see the text "Welcome to V-Card"
-    Then I click on the "Ok" button
-    Then I see the text "Dashboard"
+    And I see the text "Welcome to V-Card"
+    And I click on the "Ok" button
+    And I see the text "Dashboard"
     Then I see the text "last transactions"
-    Then I close the browser 
+    And I close the browser 
     
 @SeeTotalBalance
   Scenario: See most recent transacations on the dashboard
@@ -77,9 +77,9 @@ I want to see my dashboard
     And I click on the "Create V-Card" button
     And I insert "9" in Confirmation Modal
     And I click on the "Confirm" button
-    Then I see the text "Welcome to V-Card"
-    Then I click on the "Ok" button
-    Then I see the text "balance"
+    And I see the text "Welcome to V-Card"
+    And I click on the "Ok" button
+    And I see the text "balance"
     Then I see the text "Total balance"
-    Then I close the browser 
+    And I close the browser 
     

@@ -4,33 +4,16 @@ I want to see my contact list
 
 @GoToAddContact
 Scenario: Get to the add contact
-		Given I have the browser open
-		When I navigate to the URL "https://code-git-develop-grupoz.vercel.app/?_vercel_share=9lbtB3fPg6iBJ5XWbJohjvrTjzOna9WD"
-		And I click on the "Create new account" button
-		And I insert "912372157" in the phone field
-		And I insert "Dasidjas@1@" in the password field
-		And I click on the "Create V-Card" button
-		And I insert "9" in Confirmation Modal
-		And I click on the "Confirm" button
-		And I see the text "Welcome to V-Card"
-		And I click on the "OK" button
-		And I click on the "Contacts" button
+		Given I sucessfully register a V-Card
+		When I click on the "Contacts" button
     #If it seems stuck, dont panic c:	
 		Then I click on the "Plus" button
 		And I close the browser
 
 @AddContact
 Scenario: User search for a contact
-		Given I have the browser open
-		When I navigate to the URL "https://code-git-develop-grupoz.vercel.app/?_vercel_share=9lbtB3fPg6iBJ5XWbJohjvrTjzOna9WD"
-		And I click on the "Create new account" button
-		And I insert "911572166" in the phone field
-		And I insert "Dasidjas@1@" in the password field
-		And I click on the "Create V-Card" button
-		And I insert "9" in Confirmation Modal
-		And I click on the "Confirm" button
-		And I click on the "OK" button
-		And I click on the "Contacts" button
+		Given I sucessfully register a V-Card
+		When I click on the "Contacts" button
 		And I click on the "Add Contacts" button
     #If it seems stuck, dont panic c:	
 		And I click on the "Plus" button
@@ -42,16 +25,8 @@ Scenario: User search for a contact
 
 @VerifyIfContactIsVCardUser
 Scenario: User search for a contact
-		Given I have the browser open
-		When I navigate to the URL "https://code-git-develop-grupoz.vercel.app/?_vercel_share=9lbtB3fPg6iBJ5XWbJohjvrTjzOna9WD"
-		And I click on the "Create new account" button
-		And I insert "911572166" in the phone field
-		And I insert "Dasidjas@1@" in the password field
-		And I click on the "Create V-Card" button
-		And I insert "9" in Confirmation Modal
-		And I click on the "Confirm" button
-		And I click on the "OK" button
-		And I click on the "Contacts" button
+		Given I sucessfully register a V-Card
+		When I click on the "Contacts" button
 		And I click on the "Add Contacts" button
     #If it seems stuck, dont panic c:	
 		And I click on the "Plus" button
@@ -63,16 +38,8 @@ Scenario: User search for a contact
 
 @VerifyIfContactIsImported
 Scenario: User search for a contact
-		Given I have the browser open
-		When I navigate to the URL "https://code-git-develop-grupoz.vercel.app/?_vercel_share=9lbtB3fPg6iBJ5XWbJohjvrTjzOna9WD"
-		And I click on the "Create new account" button
-		And I insert "911572166" in the phone field
-		And I insert "Dasidjas@1@" in the password field
-		And I click on the "Create V-Card" button
-		And I insert "9" in Confirmation Modal
-		And I click on the "Confirm" button
-		And I click on the "OK" button
-		And I click on the "Contacts" button
+		Given I sucessfully register a V-Card
+		When I click on the "Contacts" button
 		And I click on the "Add Contacts" button
 		#If it seems stuck, dont panic c:	
 		And I click on the "Plus" button
@@ -85,16 +52,8 @@ Scenario: User search for a contact
 
 @FilterContacts   
 Scenario: User filter contacts from his list
-    Given I have the browser open
-    When I navigate to the URL "https://code-git-develop-grupoz.vercel.app/?_vercel_share=9lbtB3fPg6iBJ5XWbJohjvrTjzOna9WD"
-    And I click on the "Create new account" button
-    And I insert "913572166" in the phone field
-    And I insert "Dasidjas@1@" in the password field
-    And I click on the "Create V-Card" button
-    And I insert "9" in Confirmation Modal
-    And I click on the "Confirm" button
-    And I click on the "OK" button
-    And I click on the "Contacts" button
+    Given I sucessfully register a V-Card
+    When I click on the "Contacts" button
     And I click on the "Add Contacts" button
     #If it seems stuck, dont panic c:	  
     And I click on the "Plus" button
@@ -114,16 +73,8 @@ Scenario: User filter contacts from his list
 
 #@ImportContacts
 #Scenario: User imports contacts from his phone contacts
-    #Given I have the browser open
-    #When I navigate to the URL "https://code-git-develop-grupoz.vercel.app/?_vercel_share=9lbtB3fPg6iBJ5XWbJohjvrTjzOna9WD"
-    #And I click on the "Create new account" button
-    #And I insert "913572166" in the phone field
-    #And I insert "Dasidjas@1@" in the password field
-    #And I click on the "Create V-Card" button
-    #And I insert "9" in Confirmation Modal
-    #And I click on the "Confirm" button
-    #And I click on the "OK" button
-    #And I click on the "Contacts" button
+   	#Given I sucessfully register a V-Card
+    #When I click on the "Contacts" button
     #And I click on the "Add Contacts" button
     #And I click on the "Import contacts" button
     #And I choose the contacts I want to import

@@ -67,8 +67,8 @@ Scenario: User gets an error when attempting to create a contact with a previous
     Then I insert "917581346" in the phone field
     Then I click on the "Add contact" button
     Then I see the text "Sucess"
-    Then I click on the "Ok" button"
+    #Then I click on the "Ok" button"
     Then I click on the "Add contact" button
     Then I see the text "Error"
-    Then I click on the "Ok" button"
+    #Then I click on the "Ok" button"
     And I close the browser

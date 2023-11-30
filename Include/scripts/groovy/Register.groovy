@@ -58,5 +58,21 @@ class Register {
 	public void i_insert_in_the_name_field(String string) {
 		WebUI.setText(findTestObject('Page_Vite  Vue/Page_Vite  Vue/input_Name_name'), string)
 	}
+
+	@Given("I sucessfully register a V-Card")
+	public void i_sucessfully_register_a_V_Card() {
+		WebUI.openBrowser('')
+		WebUI.navigateToUrl('http://localhost:8080/')
+		WebUI.click(findTestObject('Buttons/button_Create new account'))
+		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '912 345 678')
+		WebUI.setText(findTestObject('Inputs/input_Password_password_Register'), 'micael1!A')
+		WebUI.click(findTestObject('Buttons/button_Create V-Card'))
+		WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code1_ConfirmationModal'), '9')
+		WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code2_ConfirmationModal'), '9')
+		WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code3_ConfirmationModal'), '9')
+		WebUI.setText(findTestObject('Inputs/input_Confirm your code and conclude the transaction_code4_ConfirmationModal'), '9')
+		WebUI.click(findTestObject('Buttons/button_Confirm'))
+		WebUI.click(findTestObject('Buttons/button_OK'))
+	}
 }
 

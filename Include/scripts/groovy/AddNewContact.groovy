@@ -43,19 +43,12 @@ import cucumber.api.java.en.When
 
 
 
-class Click {
-	@When("I click on the {string} button")
-	public void i_click_on_the_button(String btnLabel) {
-		WebUI.click(findTestObject('Buttons/button_' + btnLabel ))
-	}
-
-	@When("I click on the contact {string}")
-	public void i_click_on_the_contact(String string) {
-		WebUI.click(findTestObject('Page_Vite  Vue/elem_filtered'))
-	}
-
-	@When("I click on the filtered contact")
-	public void i_click_on_the_filtered_contact() {
-		WebUI.click(findTestObject('Page_Vite  Vue/elem_filtered'))
+class AddNewContact {
+	@When("I sucessfully add {string} to my contact list")
+	public void i_sucessfully_add_to_my_contact_list(String string) {
+		WebUI.click(findTestObject('Buttons/button_Plus'))
+		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), string)
+		WebUI.click(findTestObject('Buttons/button_Add contact'))
+		WebUI.click(findTestObject('Buttons/button_OK'))
 	}
 }

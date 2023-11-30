@@ -25,9 +25,8 @@ public class Empty {
 
 	@And("I clear the password field")
 	public void i_clear_the_password_field() {
-	
+
 		WebElement passwordField = DriverFactory.getWebDriver().findElement(By.id("Object Repository/Inputs/input_Password_password_Register"))
 		passwordField.clear()
-
 	}
 }

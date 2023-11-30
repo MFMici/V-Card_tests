@@ -48,11 +48,11 @@ class Register {
 	Random rand = new Random();
 	int randomNumber = rand.nextInt(10000000); // 7 digits (0 to 9999999)
 	String formattedRandomNumber = String.format("%07d", randomNumber);
-	
+
 	// Replace the last 7 digits with the random number
 	String phoneNumber = "91" + formattedRandomNumber;
-	
-	
+
+
 	@When("I insert {string} in the phone field")
 	public void i_insert_in_the_phone_field(String string) {
 		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), string)
@@ -71,7 +71,7 @@ class Register {
 	@Given("I sucessfully register a V-Card")
 	public void i_sucessfully_register_a_V_Card() {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('http://localhost:8080/')
+		WebUI.navigateToUrl('https://code-git-develop-grupoz.vercel.app/?_vercel_share=9lbtB3fPg6iBJ5XWbJohjvrTjzOna9WD')
 		WebUI.click(findTestObject('Buttons/button_Create new account'))
 		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), phoneNumber)
 		WebUI.setText(findTestObject('Inputs/input_Password_password_Register'), 'micael1!A')

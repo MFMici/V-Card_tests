@@ -2,7 +2,10 @@ Feature: Send money page
 As a user
 I want to send money
 
-#Beware "GoToSendMoneyFromDashboard" scenario sometimes randomly fails, if it does, try again please
+#Beware in all scenarios of this feature file Katalon sometimes can't capture the "And I see the text "Send money". 
+#If it happens, please try again.
+#Preferable would be to comment each of those lines to avoid 100% any error.
+
 @GoToSendMoneyFromDashboard
 Scenario: Get to the send money from the dashboard
 		Given I sucessfully register a V-Card
@@ -48,5 +51,20 @@ Scenario: Get to the send money from the dashboard
 		Then I see the text "Invalid phone number, it should contain 9 digits"
 	 	And I close the browser
 
+@FailToSendMoneyContactIsNotVCardUser
+Scenario: Get to the send money from the dashboard
+		Given I sucessfully register a V-Card
+		When I click on the "Send money" button
+		And I see the text "Send Money"
+		And I insert "912455432" in the phone field
+		And I insert "5" in the payment field
+		And I insert "ola" in the message field
+		And I click on the "Send Payment" button
+		And I insert "9" in Confirmation Modal
+		And I click on the "Confirm" button
+		Then I see the text "This contact is not a V-Card user yet"
+		And I click on the "OK" button
+	 	And I close the browser
    
+	  
 	  

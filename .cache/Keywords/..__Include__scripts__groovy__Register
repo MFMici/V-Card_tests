@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "C8CB75A4EC47490E5B3F1BB5AC7D9A88",
+  "keywordFileContentHash": "D9D6AC055EED9EE1BA480D5B0702BC46",
   "keywordClasses": [
     {
       "name": "Register",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

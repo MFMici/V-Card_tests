@@ -63,9 +63,20 @@ class Register {
 		WebUI.setText(findTestObject('Inputs/input_Password_password_Register'), string )
 	}
 
+	// Not using this one, delete later
 	@Then("I insert {string} in the name field")
 	public void i_insert_in_the_name_field(String string) {
 		WebUI.setText(findTestObject('Page_Vite  Vue/Page_Vite  Vue/input_Name_name'), string)
+	}
+
+	@When("I insert {string} in the payment field")
+	public void i_insert_in_the_payment_field(String string) {
+		WebUI.setText(findTestObject('Inputs/input_Payment'), string)
+	}
+
+	@When("I insert {string} in the message field")
+	public void i_insert_in_the_message_field(String string) {
+		WebUI.setText(findTestObject('Inputs/input_Message'), string)
 	}
 
 	@Given("I sucessfully register a V-Card")

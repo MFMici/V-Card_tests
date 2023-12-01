@@ -66,5 +66,19 @@ Scenario: Get to the send money from the dashboard
 		And I click on the "OK" button
 	 	And I close the browser
    
+@FailToSendMoneyWrongPINCodeNotNumber
+Scenario: Get to the send money from the dashboard
+		Given I sucessfully register a V-Card
+		When I click on the "Send money" button
+		And I see the text "Send Money"
+		And I insert "912455432" in the phone field
+		And I insert "5" in the payment field
+		And I insert "ola" in the message field
+		And I click on the "Send Payment" button
+    And I insert "a" in Confirmation Modal
+    Then I see the text "This field must be a number"
+    And I close the browser
+   
+	  
 	  
 	  

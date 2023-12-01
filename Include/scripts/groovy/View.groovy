@@ -46,6 +46,11 @@ import cucumber.api.java.en.When
 class View {
 	@Then("I insert {string} in the Contacts search")
 	public void i_insert_in_the_Contacts_search(String string) {
-			WebUI.setText(findTestObject('elem_Contacts search'), string)
+		WebUI.setText(findTestObject('elem_Contacts search'), string)
+	}
+
+	@When("I verify that {string} is empty")
+	public void i_verify_that_is_empty(String string) {
+		WebUI.verifyElementNotHasAttribute(findTestObject('Inputs/input_' + string), '', 0)
 	}
 }

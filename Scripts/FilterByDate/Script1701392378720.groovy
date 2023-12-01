@@ -45,11 +45,11 @@ WebUI.verifyElementVisible(findTestObject('elem_Dashboard'))
 
 not_run: WebUI.click(findTestObject('Buttons/button_Send Money'))
 
-not_run: WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '911111111')
+not_run: WebUI.setText(findTestObject('Inputs/input_Phone'), '911111111')
 
-not_run: WebUI.setText(findTestObject('Inputs/input_Payment Amount_payment'), '10')
+not_run: WebUI.setText(findTestObject('Inputs/input_Payment'), '10')
 
-not_run: WebUI.setText(findTestObject('Inputs/input_Message_message'), 'toma la 10 euros')
+not_run: WebUI.setText(findTestObject('Inputs/input_Message'), 'toma la 10 euros')
 
 not_run: WebUI.click(findTestObject('Buttons/button_Send Payment'))
 

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Payment Amount_payment</name>
+   <name>input_Message</name>
    <tag></tag>
-   <elementGuidId>6db8d6f1-8783-47f2-9eb7-8694bf6abcc9</elementGuidId>
+   <elementGuidId>ae34f72d-2049-467b-8f13-a65f0448a027</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@name='payment']</value>
+         <value>//input[@name='message']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>input[name=&quot;payment&quot;]</value>
+         <value>input[name=&quot;message&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,31 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>52f0367b-4bc0-4f8d-b766-7c1a1e7cd1de</webElementGuid>
+      <webElementGuid>28a1b238-dbb8-461c-90a0-28fea753268d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>number</value>
-      <webElementGuid>9aaa5ae2-0bb1-4626-a895-bd6294d4dacf</webElementGuid>
+      <value>text</value>
+      <webElementGuid>85eaeb48-36ff-4a30-b019-9a4e4078234b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>payment</value>
-      <webElementGuid>2fbaeacd-3170-4793-996b-b77adee51207</webElementGuid>
+      <value>message</value>
+      <webElementGuid>5af86678-dbec-427e-80bd-c96849787312</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Enter payment amount</value>
-      <webElementGuid>d5a1dda3-51e4-4551-b834-047205e06eaf</webElementGuid>
+      <value>Enter your message</value>
+      <webElementGuid>6612e8f5-66ce-4fdb-98d5-f084ea2eecf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>class</name>
       <type>Main</type>
       <value>input__field</value>
-      <webElementGuid>2da189dc-a1e9-497a-b8e2-225d7c679bc7</webElementGuid>
+      <webElementGuid>10793cea-356c-4519-b86b-b8445fa6b529</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,62 +62,62 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;contact__form-wrapper&quot;]/div[@class=&quot;contact__inputs-wrapper&quot;]/div[@class=&quot;input__group-col&quot;]/input[@class=&quot;input__field&quot;]</value>
-      <webElementGuid>5cb8941c-0e2c-497e-ad32-b833797c46ef</webElementGuid>
+      <webElementGuid>3f0a5100-ef53-4945-b288-8ab812d08dfb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@name='payment']</value>
-      <webElementGuid>2dc276e7-f75c-4db8-a68f-1ccf92ed216d</webElementGuid>
+      <value>//input[@name='message']</value>
+      <webElementGuid>ef7a14f2-8375-44d3-92df-2b8d210b264b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div[2]/div/div[2]/input</value>
-      <webElementGuid>4a503cab-4665-444c-991c-446d95b6a5b8</webElementGuid>
+      <value>//div[@id='app']/div/div/div/div[2]/div/div[3]/input</value>
+      <webElementGuid>a3a9dc66-aaae-4ccf-b67f-e351df8f3d62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Amount'])[1]/following::input[1]</value>
-      <webElementGuid>0c70339a-0cd3-4c39-b802-78b31cc51448</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message'])[1]/following::input[1]</value>
+      <webElementGuid>f0e3267e-11e6-4f16-9873-a2d0214cfa1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::input[2]</value>
-      <webElementGuid>a2864b96-2c5b-44a6-b022-4ab599f53a17</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Amount'])[1]/following::input[2]</value>
+      <webElementGuid>943c440e-d6fd-4b3c-8aa8-6824c8c78e44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Message'])[1]/preceding::input[1]</value>
-      <webElementGuid>ed391200-fa0f-4fa6-8c1c-d041fe0e6535</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::input[1]</value>
+      <webElementGuid>a818c47f-2432-49c3-84cf-341b884ee656</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/input</value>
-      <webElementGuid>1ce1bbf7-7750-42b7-94b1-3b54ad1a2367</webElementGuid>
+      <value>//div[3]/input</value>
+      <webElementGuid>348e4de0-b91b-4383-a1fe-3c5b920e3ce4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'number' and @name = 'payment' and @placeholder = 'Enter payment amount']</value>
-      <webElementGuid>783e022e-ecaf-45a4-a0bd-9b6d716bba16</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'message' and @placeholder = 'Enter your message']</value>
+      <webElementGuid>9d63224f-e191-4ee2-891c-057ae9d28324</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

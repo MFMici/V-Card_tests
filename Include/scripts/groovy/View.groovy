@@ -56,8 +56,6 @@ class View {
 
 	@Then("I verify that {string} is on")
 	public void i_verify_that_is_on(String string) {
-		//WebUI.check(findTestObject('Inputs/input_' + string), FailureHandling.STOP_ON_FAILURE)
-		//WebUI.verifyElementChecked('Inputs/input_' + string), FailureHandling.CONTINUE_ON_FAILURE)
-		WebUI.verifyElementChecked(findTestObject('Inputs/input_Round Up'), 1)
+		WebUI.verifyElementChecked(findTestObject('Inputs/input_' + string), 1)
 	}
 }

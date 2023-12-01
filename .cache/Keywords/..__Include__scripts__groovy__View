@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "D729D476A280FF5D41967B37F069EF9B",
+  "keywordFileContentHash": "4A10769D44796A365343BF4449CBBBD6",
   "keywordClasses": [
     {
       "name": "View",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

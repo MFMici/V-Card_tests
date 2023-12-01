@@ -51,11 +51,11 @@ class Click {
 
 	@When("I click on the contact {string}")
 	public void i_click_on_the_contact(String string) {
-		WebUI.click(findTestObject('Page_Vite  Vue/elem_filtered'))
+		WebUI.click(findTestObject('elem_filtered'))
 	}
 
 	@When("I click on the filtered contact")
 	public void i_click_on_the_filtered_contact() {
-		WebUI.click(findTestObject('Page_Vite  Vue/elem_filtered'))
+		WebUI.click(findTestObject('elem_filtered'))
 	}
 }

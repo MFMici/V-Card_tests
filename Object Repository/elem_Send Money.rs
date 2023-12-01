@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>elem_This field must be a number</name>
+   <name>elem_Send Money</name>
    <tag></tag>
-   <elementGuidId>767c0748-3f4e-44bd-bcb5-a9b04d60bc16</elementGuidId>
+   <elementGuidId>3be5fbe0-6d82-4949-aca7-aa41112ba87a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div/div/form/div/span</value>
+         <value>//div[@id='app']/div/div/div/div/h1</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span.input__error-text</value>
+         <value>h1.contact__title</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>e8d08d20-d835-4e8c-9e00-73fd139ea2b2</webElementGuid>
+      <value>h1</value>
+      <webElementGuid>2830c65b-c131-4875-87bf-4fff7bc2cf27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input__error-text</value>
-      <webElementGuid>422eb50e-bf8c-4e09-b3c6-b54b438d7002</webElementGuid>
+      <value>contact__title</value>
+      <webElementGuid>1b056769-c5c9-4c8d-aafe-85cb1223749e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>This field must be a number</value>
-      <webElementGuid>090c2db4-1daf-49dc-abf3-fc94d1edc1ff</webElementGuid>
+      <value>Send Money</value>
+      <webElementGuid>b905abb8-5702-4d6c-88ec-84c8180acaca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-wrapper&quot;]/div[@class=&quot;modal__inner&quot;]/form[@class=&quot;code-modal__form-wrapper&quot;]/div[@class=&quot;code-modal__inputs-wrapper&quot;]/span[@class=&quot;input__error-text&quot;]</value>
-      <webElementGuid>fe48e2a8-7368-4dae-a88f-8e90ae827500</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;contact__header__wrapper mt-50&quot;]/h1[@class=&quot;contact__title&quot;]</value>
+      <webElementGuid>daf678bb-82ac-47d9-a207-a352cf6faea4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/form/div/span</value>
-      <webElementGuid>d504445f-ca49-4859-bba6-84f1d39a7a60</webElementGuid>
+      <value>//div[@id='app']/div/div/div/div/h1</value>
+      <webElementGuid>a8079fa4-051c-4f11-b431-59236e44b4a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm your code and conclude the transaction'])[1]/following::span[1]</value>
-      <webElementGuid>3378e3b9-ae4f-4e21-b0a0-b7f89fcb67dd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::h1[1]</value>
+      <webElementGuid>e9ccf95a-bc49-4edd-bc3e-7ca2f4d90dda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register and start transferring'])[1]/preceding::span[1]</value>
-      <webElementGuid>ec2456cf-2a70-4d60-a353-35c7614d48b5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Amount'])[1]/preceding::h1[1]</value>
+      <webElementGuid>d69944d0-b153-4f3f-9458-8374b73ddf18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='This field must be a number']/parent::*</value>
-      <webElementGuid>81301b39-22e8-414e-8fca-156354ac5a0b</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Send Money']/parent::*</value>
+      <webElementGuid>8270c273-d980-4e1f-a65c-f4b956b85a4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span</value>
-      <webElementGuid>dae3f59b-57f1-4b12-8afc-ea4e4d0df063</webElementGuid>
+      <value>//h1</value>
+      <webElementGuid>3763f621-059e-4a5b-baa3-b975f5f03226</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'This field must be a number' or . = 'This field must be a number')]</value>
-      <webElementGuid>952ae4d1-8cac-4c45-807f-60cb73516639</webElementGuid>
+      <value>//h1[(text() = 'Send Money' or . = 'Send Money')]</value>
+      <webElementGuid>ec0a6ebd-8be6-40a9-98ef-6a13056c2ee7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

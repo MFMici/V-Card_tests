@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>elem_This field must be a number</name>
+   <name>elem_Settings</name>
    <tag></tag>
-   <elementGuidId>767c0748-3f4e-44bd-bcb5-a9b04d60bc16</elementGuidId>
+   <elementGuidId>06b695f6-6675-4ca2-80c6-3cdef00f286b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div/div/form/div/span</value>
+         <value>//div[@id='app']/div/div/div[2]/ul/li[4]/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span.input__error-text</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,78 +22,86 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e8d08d20-d835-4e8c-9e00-73fd139ea2b2</webElementGuid>
+      <webElementGuid>1ca6bd14-1447-4f03-8303-2b46c9517862</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>input__error-text</value>
-      <webElementGuid>422eb50e-bf8c-4e09-b3c6-b54b438d7002</webElementGuid>
+      <value>main-menu__font</value>
+      <webElementGuid>496fb53c-2536-4bf4-b980-e825fb651f97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>This field must be a number</value>
-      <webElementGuid>090c2db4-1daf-49dc-abf3-fc94d1edc1ff</webElementGuid>
+      <value>Settings</value>
+      <webElementGuid>40818c77-b412-4cad-aea6-39b9830d07af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-wrapper&quot;]/div[@class=&quot;modal__inner&quot;]/form[@class=&quot;code-modal__form-wrapper&quot;]/div[@class=&quot;code-modal__inputs-wrapper&quot;]/span[@class=&quot;input__error-text&quot;]</value>
-      <webElementGuid>fe48e2a8-7368-4dae-a88f-8e90ae827500</webElementGuid>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;main-menu__container&quot;]/ul[@class=&quot;main-menu__items&quot;]/li[@class=&quot;main-menu__item&quot;]/a[@class=&quot;main-menu__item-link&quot;]/span[@class=&quot;main-menu__font&quot;]</value>
+      <webElementGuid>fac251ad-3e27-4062-932a-818e74645bf0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/form/div/span</value>
-      <webElementGuid>d504445f-ca49-4859-bba6-84f1d39a7a60</webElementGuid>
+      <value>//div[@id='app']/div/div/div[2]/ul/li[4]/a/span</value>
+      <webElementGuid>58d789d0-ae41-4db6-aad0-74331e105a9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm your code and conclude the transaction'])[1]/following::span[1]</value>
-      <webElementGuid>3378e3b9-ae4f-4e21-b0a0-b7f89fcb67dd</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contacts'])[1]/following::span[1]</value>
+      <webElementGuid>be0f2e4e-9e4a-4709-8f9c-baf5d3a9bea6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register and start transferring'])[1]/preceding::span[1]</value>
-      <webElementGuid>ec2456cf-2a70-4d60-a353-35c7614d48b5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transacations'])[1]/following::span[2]</value>
+      <webElementGuid>6d9a788f-6694-4d2e-adab-15bea73a0d4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='This field must be a number']/parent::*</value>
-      <webElementGuid>81301b39-22e8-414e-8fca-156354ac5a0b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::span[1]</value>
+      <webElementGuid>87933164-24dd-43d2-837d-e039ac98a5b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::span[2]</value>
+      <webElementGuid>7561ec60-6a69-49f7-9263-ac8443a4d6c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span</value>
-      <webElementGuid>dae3f59b-57f1-4b12-8afc-ea4e4d0df063</webElementGuid>
+      <value>//li[4]/a/span</value>
+      <webElementGuid>16bc9ae9-135d-48c7-ab2d-f0a9e21aa76c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'This field must be a number' or . = 'This field must be a number')]</value>
-      <webElementGuid>952ae4d1-8cac-4c45-807f-60cb73516639</webElementGuid>
+      <value>//span[(text() = 'Settings' or . = 'Settings')]</value>
+      <webElementGuid>bf83a6a0-db50-4b08-84ac-cf60cab6c38d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

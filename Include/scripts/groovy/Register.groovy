@@ -71,7 +71,7 @@ class Register {
 	@Given("I sucessfully register a V-Card")
 	public void i_sucessfully_register_a_V_Card() {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://code-git-develop-grupoz.vercel.app/?_vercel_share=9lbtB3fPg6iBJ5XWbJohjvrTjzOna9WD')
+		WebUI.navigateToUrl('https://code-git-feature-gz-51-grupoz.vercel.app/?_vercel_share=W1IqsjFf8pQbBl8pguNR4hh3ahtKAHAs')
 		WebUI.click(findTestObject('Buttons/button_Create new account'))
 		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), phoneNumber)
 		WebUI.setText(findTestObject('Inputs/input_Password_password_Register'), 'micael1!A')

@@ -24,7 +24,7 @@ Scenario: Verify that all fields are empty
 		Then I close the browser
 		
 @FailToSendMoneyInvalidPhoneNumberFieldRequired
-Scenario: Get to the send money from the dashboard
+Scenario: Fail to send money, empty phone field
 		Given I sucessfully register a V-Card
 		When I click on the "Send money" button
 		And I see the text "Send money"
@@ -34,7 +34,7 @@ Scenario: Get to the send money from the dashboard
 	 	And I close the browser
 	  
 @FailToSendMoneyInvalidPhoneNumberNotPortuguese
-Scenario: Get to the send money from the dashboard
+Scenario: Fail to send money, invalid PT number
 		Given I sucessfully register a V-Card
 		When I click on the "Send money" button
 		And I see the text "Send money"
@@ -43,7 +43,7 @@ Scenario: Get to the send money from the dashboard
 	 	And I close the browser
 	 	
 @FailToSendMoneyInvalidPhoneNumberNotLongEnough
-Scenario: Get to the send money from the dashboard
+Scenario: Fail to send money, invalid lenght of phone
 		Given I sucessfully register a V-Card
 		When I click on the "Send money" button
 		And I see the text "Send money"
@@ -52,7 +52,7 @@ Scenario: Get to the send money from the dashboard
 	 	And I close the browser
 
 @FailToSendMoneyContactIsNotVCardUser
-Scenario: Get to the send money from the dashboard
+Scenario: Fail to send money, contact is not a v-card user
 		Given I sucessfully register a V-Card
 		When I click on the "Send money" button
 		And I see the text "Send Money"
@@ -67,7 +67,7 @@ Scenario: Get to the send money from the dashboard
 	 	And I close the browser
    
 @FailToSendMoneyWrongPINCodeNotNumber
-Scenario: Get to the send money from the dashboard
+Scenario: Fail to send money, invalid pin code
 		Given I sucessfully register a V-Card
 		When I click on the "Send money" button
 		And I see the text "Send Money"
@@ -78,7 +78,21 @@ Scenario: Get to the send money from the dashboard
     And I insert "a" in Confirmation Modal
     Then I see the text "This field must be a number"
     And I close the browser
-   
+
+@FailToSendMoneyWrongPINCodeNotSame
+Scenario: Fail to send money, pin code incorrect
+		Given I sucessfully register a V-Card
+		When I click on the "Send money" button
+		And I see the text "Send Money"
+		And I insert "912455432" in the phone field
+		And I insert "5" in the payment field
+		And I insert "ola" in the message field
+		And I click on the "Send Payment" button
+    And I insert "5" in Confirmation Modal
+		And I click on the "Confirm" button
+		Then I see the text "The confirmation code is incorrect"
+    And I close the browser
+
 	  
 	  
 	  

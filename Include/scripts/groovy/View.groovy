@@ -58,4 +58,9 @@ class View {
 	public void i_verify_that_is_on(String string) {
 		WebUI.verifyElementChecked(findTestObject('Inputs/input_' + string), 1)
 	}
+
+	@Then("I verify that {string} is off")
+	public void i_verify_that_is_off(String string) {
+		WebUI.verifyElementNotChecked(findTestObject('Inputs/input_' + string), 0)
+	}
 }

@@ -26,3 +26,14 @@ Scenario: Verify if notifications is turned on
 		And I set the "Notifications" to on
 		Then I verify that "Notifications" is on
 		And I close the browser
+		
+@SetRoundTransactionsToOff
+Scenario: Verify if round up is turned on
+		Given I sucessfully register a V-Card
+		When I click on the "Settings" button
+		And I see the text "Settings"
+		#We need to set it on first, to verify after that it is indeed off
+		And I set the "Round up" to on
+		And I set the "Round up" to off
+		Then I verify that "Round up" is off
+		And I close the browser

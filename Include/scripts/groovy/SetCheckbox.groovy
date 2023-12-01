@@ -48,4 +48,9 @@ class SetCheckbox {
 	public void i_set_the_to_on(String string) {
 		WebUI.check(findTestObject('Inputs/input_' + string), FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@When("I set the {string} to off")
+	public void i_set_the_to_off(String string) {
+		WebUI.uncheck(findTestObject('Inputs/input_' + string), FailureHandling.STOP_ON_FAILURE)
+	}
 }

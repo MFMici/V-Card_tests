@@ -46,3 +46,16 @@ Scenario: Verify if user lands to delete account page
 		And I click on the "Delete Account" button
 		Then I see the text "Are you sure you want to delete your account"
 		And I close the browser
+		
+@FailToDeleteAccount
+Scenario: User tries to delete account but fails to insert a valid password
+		Given I sucessfully register a V-Card
+		When I click on the "Settings" button
+		And I see the text "Settings"
+		And I click on the "Delete Account" button
+		And I see the text "Are you sure you want to delete your account"
+    And I insert "passErrada1@@" in the password field
+    And I click on the "Confirm delete" button
+    Then I see the text "It seems like your password is incorrect"
+    And I click on the "OK" button
+    And I close the browser

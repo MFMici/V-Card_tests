@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Confirm</name>
+   <name>elem_It seems like your password is incorrect</name>
    <tag></tag>
-   <elementGuidId>fad7fff8-89cc-48dd-bf13-887b6850cd71</elementGuidId>
+   <elementGuidId>a2840475-109b-41fe-ba0e-1db7bbf212ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//h2[@id='swal2-title']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.primary-button</value>
+         <value>#swal2-title</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>ca9c79fe-c026-4eab-9269-71dcb79e5d46</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>0b59633a-7d1d-4d46-b077-f2345003954e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>primary-button</value>
-      <webElementGuid>6edeaeaf-c4ef-4a60-a9a8-31af7b63d3a1</webElementGuid>
+      <value>swal2-title</value>
+      <webElementGuid>525b4009-03ce-43d3-8c8c-757febce7cfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>0828c8a3-9357-42d5-ac74-c99f5b0c3c48</webElementGuid>
+      <value>swal2-title</value>
+      <webElementGuid>fcd6e8d8-5428-4a54-89c4-978e6a759b8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Confirm</value>
-      <webElementGuid>26189c08-917a-45e1-8f2b-772201e67a07</webElementGuid>
+      <value>It seems like your password is incorrect</value>
+      <webElementGuid>b9e8f70d-4803-4ff0-a174-c8e143bf2ad6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-wrapper&quot;]/div[@class=&quot;modal__inner&quot;]/form[@class=&quot;code-modal__form-wrapper&quot;]/div[@class=&quot;code-modal__buttons-wrapper&quot;]/button[@class=&quot;primary-button&quot;]</value>
-      <webElementGuid>e33cb227-3843-4309-b012-46c99c5470a9</webElementGuid>
+      <value>id(&quot;swal2-title&quot;)</value>
+      <webElementGuid>ce009da4-1211-4978-9984-0174699342b3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>a674bf81-a14c-45ba-8c0f-46b1e3782d4e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/form/div[2]/button</value>
-      <webElementGuid>30a3751f-c40e-4845-aa51-d218008a6338</webElementGuid>
+      <value>//h2[@id='swal2-title']</value>
+      <webElementGuid>0019f18a-070f-45b1-bb55-16a8e6e6069c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm your code and conclude the transaction'])[1]/following::button[1]</value>
-      <webElementGuid>8c13d2ae-be86-45e9-9553-2893d000c6ff</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::h2[1]</value>
+      <webElementGuid>2cdd2480-e577-4523-959a-382f28b89fa8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register and start transferring'])[1]/preceding::button[1]</value>
-      <webElementGuid>4a77e451-4bd0-4c5b-a39f-451709b202e9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h2[1]</value>
+      <webElementGuid>21ed21bb-02d2-4ef8-9db5-d78818d1c71f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::button[1]</value>
-      <webElementGuid>c36a7b5c-b0b9-4237-8c34-b8e71941fe01</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::h2[1]</value>
+      <webElementGuid>022ae646-2846-483c-858f-19994aed50b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::h2[1]</value>
+      <webElementGuid>69e6b3d3-a025-4c8d-bb49-28425bd2ba77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>cf68a735-f2b7-47dc-87e6-36d5f247e8dd</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>a54a7187-5e85-413d-b0ee-812d80f85f7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = ' Confirm' or . = ' Confirm')]</value>
-      <webElementGuid>6b7ed348-0d09-4fbf-ae94-64182485a520</webElementGuid>
+      <value>//h2[@id = 'swal2-title' and (text() = 'It seems like your password is incorrect' or . = 'It seems like your password is incorrect')]</value>
+      <webElementGuid>325b2955-4cbb-432d-b33c-d1e273455678</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

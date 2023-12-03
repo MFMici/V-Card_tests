@@ -37,3 +37,12 @@ Scenario: Verify if round up is turned on
 		And I set the "Round up" to off
 		Then I verify that "Round up" is off
 		And I close the browser
+		
+@GoToDeleteAccount
+Scenario: Verify if user lands to delete account page
+		Given I sucessfully register a V-Card
+		When I click on the "Settings" button
+		And I see the text "Settings"
+		And I click on the "Delete Account" button
+		Then I see the text "Are you sure you want to delete your account"
+		And I close the browser

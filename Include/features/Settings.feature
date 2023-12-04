@@ -50,3 +50,38 @@ Scenario: Verify if Notifications is turned off
 		And I set the "Notifications" to off
 		Then I verify that "Notifications" is off
 		And I close the browser
+		
+@GoToDeleteAccount
+Scenario: Verify if user lands to delete account page
+		Given I sucessfully register a V-Card
+		When I click on the "Settings" button
+		And I see the text "Settings"
+		And I click on the "Delete Account" button
+		Then I see the text "Are you sure you want to delete your account"
+		And I close the browser
+		
+@FailToDeleteAccount
+Scenario: User tries to delete account but fails to insert a valid password
+		Given I sucessfully register a V-Card
+		When I click on the "Settings" button
+		And I see the text "Settings"
+		And I click on the "Delete Account" button
+		And I see the text "Are you sure you want to delete your account"
+    And I insert "passErrada1@@" in the password field
+    And I click on the "Confirm delete" button
+    Then I see the text "It seems like your password is incorrect"
+    And I click on the "OK" button
+    And I close the browser
+    
+@UserDeletesAccount
+Scenario: User deletes account sucessfully
+		Given I sucessfully register a V-Card
+		When I click on the "Settings" button
+		And I see the text "Settings"
+		And I click on the "Delete Account" button
+		And I see the text "Are you sure you want to delete your account"
+    And I insert "micael1!A" in the password field
+    And I click on the "Confirm delete" button
+    Then I see the text "Your account has been deleted"
+    And I click on the "OK" button
+    And I close the browser

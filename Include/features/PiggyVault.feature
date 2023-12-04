@@ -36,3 +36,17 @@ Scenario: Go to piggy vault page from the dashboard
 		And I click on the "View all" button
 		And I see the text "View less"
 		Then I close the browser
+		
+@NoMoneyToDeposit
+Scenario: Error on deposit money
+		Given I sucessfully register a V-Card
+		When I click on the "piggyV" button
+		And I see the text "Piggy Bank"
+		And I click on the "Deposit Money" button
+		And I see the text "Deposit Money"
+		And I insert "5" in the deposit quantity
+		And I click on the "Send Payment" button
+		And I insert "9" in Confirmation Modal
+		And I click on the "Confirm" button
+		And I see the text "You dont have enough money in your spendable balance to make this transfer"
+		Then I close the browser

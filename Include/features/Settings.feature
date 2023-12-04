@@ -40,7 +40,6 @@ Scenario: Verify if round up is turned off
 		Then I verify that "Round up" is off
 		And I close the browser
 		
-
 @SetNotificationToOff
 Scenario: Verify if Notifications is turned off
 		Given I sucessfully register a V-Card

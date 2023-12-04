@@ -92,3 +92,19 @@ Scenario: withdraw success
 		And I click on the "Confirm" button
 		And I see the text "It was withdrawn 5 from your deposit with success"
 		Then I close the browser
+		
+@WithdrawSuccessAndVerified
+Scenario: withdraw success and verified
+		Given I sucessfully login into V-Card
+		When I click on the "piggyV" button
+		And I see the text "Piggy Bank"
+		And I click on the "Withdraw Money" button
+		And I see the text "Withdraw Money"
+		And I insert "5" in the deposit quantity
+		And I click on the "Send Payment" button
+		And I insert "0" in Confirmation Modal
+		And I click on the "Confirm" button
+		And I see the text "It was withdrawn 5 from your deposit with success"
+		And I click on the "OK" button
+		And I see the text "-5"
+		Then I close the browser

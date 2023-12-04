@@ -27,3 +27,12 @@ Scenario: Go to withDraw Money page
 		And I click on the "Deposit Money" button
 		And I see the text "Deposit Money"
 		Then I close the browser
+		
+@ViewAllPiggyVault		
+Scenario: Go to piggy vault page from the dashboard
+		Given I sucessfully register a V-Card
+		When I click on the "piggyV" button
+		And I see the text "Piggy Bank"
+		And I click on the "View all" button
+		And I see the text "View less"
+		Then I close the browser

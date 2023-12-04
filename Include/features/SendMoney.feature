@@ -92,7 +92,25 @@ Scenario: Fail to send money, pin code incorrect
 		And I click on the "Confirm" button
 		Then I see the text "The confirmation code is incorrect"
     And I close the browser
+    
+@TryingToSendMoneyToHimelf
+Scenario: Fail to send money, pin code incorrect
+		Given I sucessfully register a V-Card
+		When I click on the "Send money" button
+		And I see the text "Send Money"
+		And I insert my "912455432" in the phone field
+		And I insert "5" in the payment field
+		And I insert "ola" in the message field
+		And I click on the "Send Payment" button
+    And I insert "9" in Confirmation Modal
+		And I click on the "Confirm" button
+		Then I see the text "You cannot send money to yourself"
+    And I close the browser
 
+	  
+
+	  
+	  
 	  
 	  
 	  

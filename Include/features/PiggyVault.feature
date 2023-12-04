@@ -50,3 +50,17 @@ Scenario: Error on deposit money
 		And I click on the "Confirm" button
 		And I see the text "You dont have enough money in your spendable balance to make this transfer"
 		Then I close the browser
+		
+@NoMoneyToWithdraw
+Scenario: Error on withdraw money
+		Given I sucessfully register a V-Card
+		When I click on the "piggyV" button
+		And I see the text "Piggy Bank"
+		And I click on the "Withdraw Money" button
+		And I see the text "Withdraw Money"
+		And I insert "5" in the deposit quantity
+		And I click on the "Send Payment" button
+		And I insert "9" in Confirmation Modal
+		And I click on the "Confirm" button
+		And I see the text "You dont have enough money in your deposit to make this transfer"
+		Then I close the browser

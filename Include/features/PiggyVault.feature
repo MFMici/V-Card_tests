@@ -9,3 +9,12 @@ Scenario: Go to piggy vault page from the dashboard
 		When I click on the "piggyV" button
 		And I see the text "Piggy Bank"
 		Then I close the browser
+		
+@GoToWithDrawMoney
+Scenario: Go to withDraw Money page
+		Given I sucessfully register a V-Card
+		When I click on the "piggyV" button
+		And I see the text "Piggy Bank"
+		And I click on the "Withdraw Money" button
+		And I see the text "Withdraw Money"
+		Then I close the browser

@@ -1,8 +1,8 @@
 {
-  "keywordFileContentHash": "F71BEBBCFDAB489113F246DB2DD3D80D",
+  "keywordFileContentHash": "17F460B28079BC5DFE40F24F545813EE",
   "keywordClasses": [
     {
-      "name": "View",
+      "name": "SetCheckbox",
       "keywordMethods": []
     }
   ],

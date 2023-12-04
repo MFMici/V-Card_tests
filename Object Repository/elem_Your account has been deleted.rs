@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Confirm</name>
+   <name>elem_Your account has been deleted</name>
    <tag></tag>
-   <elementGuidId>fad7fff8-89cc-48dd-bf13-887b6850cd71</elementGuidId>
+   <elementGuidId>171df9cd-0496-41d4-876d-c45f5a2740a4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='submit']</value>
+         <value>//h2[@id='swal2-title']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.primary-button</value>
+         <value>#swal2-title</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>ca9c79fe-c026-4eab-9269-71dcb79e5d46</webElementGuid>
+      <value>h2</value>
+      <webElementGuid>3f36237e-15de-4503-b9e3-0f39d5127713</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>primary-button</value>
-      <webElementGuid>6edeaeaf-c4ef-4a60-a9a8-31af7b63d3a1</webElementGuid>
+      <value>swal2-title</value>
+      <webElementGuid>3e9c29dc-3db1-4b96-8b71-c4a90c81e465</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>0828c8a3-9357-42d5-ac74-c99f5b0c3c48</webElementGuid>
+      <value>swal2-title</value>
+      <webElementGuid>d39f5785-64b9-445f-bb44-e2fab9d2c34a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Confirm</value>
-      <webElementGuid>26189c08-917a-45e1-8f2b-772201e67a07</webElementGuid>
+      <value>Your account has been deleted</value>
+      <webElementGuid>dad0bfae-82cf-4a3d-a613-b34a79dd2556</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-wrapper&quot;]/div[@class=&quot;modal__inner&quot;]/form[@class=&quot;code-modal__form-wrapper&quot;]/div[@class=&quot;code-modal__buttons-wrapper&quot;]/button[@class=&quot;primary-button&quot;]</value>
-      <webElementGuid>e33cb227-3843-4309-b012-46c99c5470a9</webElementGuid>
+      <value>id(&quot;swal2-title&quot;)</value>
+      <webElementGuid>aba392f5-7198-4cf0-af41-831bbe2776ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@type='submit']</value>
-      <webElementGuid>a674bf81-a14c-45ba-8c0f-46b1e3782d4e</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='app']/div/div/div/div/div/form/div[2]/button</value>
-      <webElementGuid>30a3751f-c40e-4845-aa51-d218008a6338</webElementGuid>
+      <value>//h2[@id='swal2-title']</value>
+      <webElementGuid>e9920211-4870-4ca6-b8e6-1d6892f2525c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm your code and conclude the transaction'])[1]/following::button[1]</value>
-      <webElementGuid>8c13d2ae-be86-45e9-9553-2893d000c6ff</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::h2[1]</value>
+      <webElementGuid>134836de-eadb-4305-8d93-ef2d60c1246d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register and start transferring'])[1]/preceding::button[1]</value>
-      <webElementGuid>4a77e451-4bd0-4c5b-a39f-451709b202e9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h2[1]</value>
+      <webElementGuid>c25483ff-206e-4123-a75f-f12482046849</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/preceding::button[1]</value>
-      <webElementGuid>c36a7b5c-b0b9-4237-8c34-b8e71941fe01</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::h2[1]</value>
+      <webElementGuid>d9f1b62c-bb4f-4137-ad60-c5db1b7a09ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::h2[1]</value>
+      <webElementGuid>a3dbaa4e-722e-44c6-93c1-a7d01352282a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//button</value>
-      <webElementGuid>cf68a735-f2b7-47dc-87e6-36d5f247e8dd</webElementGuid>
+      <value>//h2</value>
+      <webElementGuid>f1405cca-6c5d-4905-b928-4fe981c4633d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = ' Confirm' or . = ' Confirm')]</value>
-      <webElementGuid>6b7ed348-0d09-4fbf-ae94-64182485a520</webElementGuid>
+      <value>//h2[@id = 'swal2-title' and (text() = 'Your account has been deleted' or . = 'Your account has been deleted')]</value>
+      <webElementGuid>ad5f133e-da18-414e-a2fe-209b3e35b035</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

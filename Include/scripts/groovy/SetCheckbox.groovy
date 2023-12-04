@@ -43,24 +43,14 @@ import cucumber.api.java.en.When
 
 
 
-class View {
-	@Then("I insert {string} in the Contacts search")
-	public void i_insert_in_the_Contacts_search(String string) {
-		WebUI.setText(findTestObject('elem_Contacts search'), string)
+class SetCheckbox {
+	@When("I set the {string} to on")
+	public void i_set_the_to_on(String string) {
+		WebUI.check(findTestObject('Inputs/input_' + string), FailureHandling.STOP_ON_FAILURE)
 	}
-
-	@When("I verify that {string} is empty")
-	public void i_verify_that_is_empty(String string) {
-		WebUI.verifyElementNotHasAttribute(findTestObject('Inputs/input_' + string), '', 0)
-	}
-
-	@Then("I verify that {string} is on")
-	public void i_verify_that_is_on(String string) {
-		WebUI.verifyElementChecked(findTestObject('Inputs/input_' + string), 1)
-	}
-
-	@Then("I verify that {string} is off")
-	public void i_verify_that_is_off(String string) {
-		WebUI.verifyElementNotChecked(findTestObject('Inputs/input_' + string), 0)
+	
+	@When("I set the {string} to off")
+	public void i_set_the_to_off(String string) {
+		WebUI.uncheck(findTestObject('Inputs/input_' + string), FailureHandling.STOP_ON_FAILURE)
 	}
 }

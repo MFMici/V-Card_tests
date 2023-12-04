@@ -18,3 +18,12 @@ Scenario: Go to withDraw Money page
 		And I click on the "Withdraw Money" button
 		And I see the text "Withdraw Money"
 		Then I close the browser
+		
+@GoToDepositMoney
+Scenario: Go to withDraw Money page
+		Given I sucessfully register a V-Card
+		When I click on the "piggyV" button
+		And I see the text "Piggy Bank"
+		And I click on the "Deposit Money" button
+		And I see the text "Deposit Money"
+		Then I close the browser

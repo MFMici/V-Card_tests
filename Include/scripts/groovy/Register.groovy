@@ -94,10 +94,15 @@ class Register {
 		WebUI.click(findTestObject('Buttons/button_Confirm'))
 		WebUI.click(findTestObject('Buttons/button_OK'))
 	}
-	
+
 	@When("I insert my {string} in the phone field")
 	public void i_insert_my_phone_field(String string) {
 		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), phoneNumber)
+	}
+	
+	@And("I insert {string} in the deposit quantity")
+	public void i_insert_in_deposit_quantity(String string) {
+		WebUI.setText(findTestObject('Inputs/input_Deposit Quantity'), string)
 	}
 }
 

@@ -19,7 +19,7 @@ import cucumber.api.java.en.Given
 import internal.GlobalVariable
 
 public class Login {
-	
+
 	@Given("I sucessfully login into V-Card")
 	public void i_sucessfully_login_into_V_Card() {
 		WebUI.openBrowser('')

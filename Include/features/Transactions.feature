@@ -34,9 +34,26 @@ Scenario: Apply the expenses filter
 	And I close the browser
 	
 @ApplyFilterIncomes
-Scenario: Apply the expenses filter
+Scenario: Apply the incomes filter
 	Given I sucessfully login into V-Card
 	When I click on the "Transacations" button
 	And I see the text "Transactions"
 	Then I click on the "Incomes" button
 	And I close the browser
+	
+@ApplyFilterDateAsc
+Scenario: Apply the date asc filter
+	Given I sucessfully login into V-Card
+	When I click on the "Transacations" button
+	And I see the text "Transactions"
+	Then I click on the "Date ASC" button
+	And I close the browser
+
+@ApplyFilterDateDesc
+Scenario: Apply the date desc filter
+	Given I sucessfully login into V-Card
+	When I click on the "Transacations" button
+	And I see the text "Transactions"
+	Then I click on the "Date DESC" button
+	And I close the browser
+	

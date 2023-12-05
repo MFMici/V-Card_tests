@@ -57,8 +57,8 @@ Scenario: Apply the date desc filter
 	Then I click on the "Date DESC" button
 	And I close the browser
 	
-@VerifyIfTransactionIsShown
-Scenario: Send money and verify if transaction is shown on page
+@VerifyIfTransactionExpenseIsShown
+Scenario: Send money and verify if transaction (expense) is shown on page (on dashboard)
 	Given I sucessfully login into V-Card
 	When I click on the "Send money" button
 	And I see the text "Send Money"
@@ -72,3 +72,24 @@ Scenario: Send money and verify if transaction is shown on page
 	Then I see the text "agora"
 	And I see the text "-"
   And I close the browser
+  
+@VerifyIfTransactionIncomeIsShown
+Scenario: Receive money and verify if transaction (income) is shown on page (on dashboard)
+Given I sucessfully login into V-Card as 911 222 333
+	When I click on the "Send money" button
+	And I see the text "Send Money"
+	And I insert "910000091" in the phone field
+	And I insert "1" in the payment field
+	And I insert "teste!" in the message field
+	And I click on the "Send Payment" button
+  And I insert "9" in Confirmation Modal
+	And I click on the "Confirm" button
+	And I click on the "OK" button
+  And I close the browser
+  And I sucessfully login into V-Card
+  Then I see the text "segundos"
+  And I see the text "mais"
+  And I close the browser
+
+
+

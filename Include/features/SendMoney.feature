@@ -120,6 +120,17 @@ Scenario: Fail to send money, Exceds spentable
 		And I click on the "Confirm" button
 		Then I see the text "You dont have enough money to make this transfer"
 		And I close the browser
+		
+@ArriveSendMoneyAfterContactList
+Scenario: Arrives in Send Money After Contact List
+		Given I sucessfully login into V-Card
+		When I click on the "Contacts" button
+    #If it seems stuck, dont panic c:	
+    And I sucessfully add "911111111" to my contact list
+		And I see the text "911111111"	
+		And I click on the "SendMoneyIcon" button
+		Then I see the text "Send Money"
+		And I close the browser
 	  
 
 	  

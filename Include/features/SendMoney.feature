@@ -144,8 +144,38 @@ Scenario: Success after money is sent
 		And I click on the "Send Payment" button
 		And I insert "0" in Confirmation Modal
 		And I click on the "Confirm" button
+		Then I see the text "It was sent 5 to 911111111 with success"
+		And I close the browser
+		
+@GetsPhoneNumberfilled
+Scenario: Gets Phone Number filled
+		Given I sucessfully login into V-Card
+		When I click on the "Contacts" button
+    #If it seems stuck, dont panic c:	
+    And I sucessfully add "911111111" to my contact list
+		And I see the text "911111111"	
+		And I click on the "SendMoneyIcon" button
+		Then I see the '911111111' input
+		And I close the browser
+		
+		
+@CheckBalanceSuccessAfterMoneyIsSent
+Scenario: Success after money is sent
+		Given I sucessfully login into V-Card
+		When I click on the "Send Money" button
+		And I see the text "Send Money"
+		And I insert "911111111" in the phone field
+		And I insert "81" in the payment field
+		And I insert "olaa" in the message field
+		And I click on the "Send Payment" button
+		And I insert "0" in Confirmation Modal
+		And I click on the "Confirm" button
 		And I see the text "It was sent 5 to 911111111 with success"
-		Then I close the browser
+		And I click on the "OK" button
+		Then I see the text "157"
+		And I close the browser
+		
+		
 	  
 
 	  

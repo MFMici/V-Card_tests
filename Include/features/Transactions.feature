@@ -57,3 +57,18 @@ Scenario: Apply the date desc filter
 	Then I click on the "Date DESC" button
 	And I close the browser
 	
+@VerifyIfTransactionIsShown
+Scenario: Send money and verify if transaction is shown on page
+	Given I sucessfully login into V-Card
+	When I click on the "Send money" button
+	And I see the text "Send Money"
+	And I insert "911111111" in the phone field
+	And I insert "1" in the payment field
+	And I insert "ola" in the message field
+	And I click on the "Send Payment" button
+  And I insert "0" in Confirmation Modal
+	And I click on the "Confirm" button
+	And I click on the "OK" button
+	Then I see the text "agora"
+	And I see the text "-"
+  And I close the browser

@@ -24,3 +24,11 @@ Scenario: Apply the value desc filter
 	And I see the text "Transactions"
 	Then I click on the "Value ASC" button
 	And I close the browser
+	
+@ApplyFilterExpenses
+Scenario: Apply the expenses filter
+	Given I sucessfully login into V-Card
+	When I click on the "Transacations" button
+	And I see the text "Transactions"
+	Then I click on the "Expenses" button
+	And I close the browser

@@ -32,3 +32,11 @@ Scenario: Apply the expenses filter
 	And I see the text "Transactions"
 	Then I click on the "Expenses" button
 	And I close the browser
+	
+@ApplyFilterIncomes
+Scenario: Apply the expenses filter
+	Given I sucessfully login into V-Card
+	When I click on the "Transacations" button
+	And I see the text "Transactions"
+	Then I click on the "Incomes" button
+	And I close the browser

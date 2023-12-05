@@ -53,6 +53,17 @@ class SeeText {
 	public void i_see_the_button(String string) {
 		WebUI.verifyElementVisible(findTestObject('Object Repository/button_' + string))
 	}
+	
+	
+	@Then("I see the {string} input")
+	public void i_see_the_input(String string) {
+
+		WebUI.verifyElementVisible(findTestObject('Object Repository/elems_' + string))
+		
+	}
+	
+	
+	
 }
 
 

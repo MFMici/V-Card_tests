@@ -93,8 +93,8 @@ Scenario: Fail to send money, pin code incorrect
 		Then I see the text "The confirmation code is incorrect"
     And I close the browser
     
-@TryingToSendMoneyToHimelf
-Scenario: Fail to send money, pin code incorrect
+@TryingToSendMoneyToHimself
+Scenario: Trying to send money to himself
 		Given I sucessfully register a V-Card
 		When I click on the "Send money" button
 		And I see the text "Send Money"
@@ -107,6 +107,19 @@ Scenario: Fail to send money, pin code incorrect
 		Then I see the text "You cannot send money to yourself"
     And I close the browser
 
+@SendMoneyExcedsSpentable
+Scenario: Fail to send money, Exceds spentable
+		Given I sucessfully login into V-Card
+		When I click on the "Send money" button
+		And I see the text "Send Money"
+		And I insert "911111111" in the phone field
+		And I insert "500" in the payment field
+		And I insert "ola" in the message field
+		And I click on the "Send Payment" button
+		And I insert "0" in Confirmation Modal
+		And I click on the "Confirm" button
+		Then I see the text "You dont have enough money to make this transfer"
+		And I close the browser
 	  
 
 	  

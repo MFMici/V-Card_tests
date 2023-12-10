@@ -92,4 +92,16 @@ Given I sucessfully login into V-Card as 911 222 333
   And I close the browser
 
 
+#Problem in insert date in Datepicker
+@StartDateBiggerThanEndDate
+Scenario: StartDateBiggerThanEndDate
+		#Given I sucessfully login into V-Card
+		#When I click on the "Transacations" button
+		#And I see the text "Transactions"
+		#And I insert "08122023" in Date Picker
+		#And I insert "07122023" in Date Picker
+		#And I click on the "Filter By Date Range" button
+		#And I see the text "Start date must be before end date"	
+		#And I close the browser
+
 

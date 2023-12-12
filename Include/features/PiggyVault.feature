@@ -124,3 +124,25 @@ Scenario: deposit success and verified
 		And I see the text "5"
 		Then I close the browser
 		
+@SeePiggyAfterRoundTransaction
+Scenario: Check Piggy After Round Transaction
+		Given I sucessfully login into V-Card
+		When I click on the "Settings" button
+		And I see the text "Settings"
+		And I set the "Round up" to on
+		And I click on the "Home" button
+		And I click on the "Send money" button
+		And I see the text "Send Money"
+		And I insert "911111111" in the phone field
+		And I insert "5,90" in the payment field
+		And I insert "ola" in the message field
+		And I click on the "Send Payment" button
+		And I insert "0" in Confirmation Modal
+		And I click on the "Confirm" button
+		And I click on the "Yes" button
+		And I see the text "It was sent 5.9 to 911111111 with success"
+		And I click on the "OK" button
+		And I click on the "piggyV" button
+		Then I see the text "0.1"
+		And I close the browser
+		

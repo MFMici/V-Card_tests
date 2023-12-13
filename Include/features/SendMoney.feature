@@ -93,8 +93,8 @@ Scenario: Fail to send money, pin code incorrect
 		Then I see the text "The confirmation code is incorrect"
     And I close the browser
     
-@TryingToSendMoneyToHimelf
-Scenario: Fail to send money, pin code incorrect
+@TryingToSendMoneyToHimself
+Scenario: Trying to send money to himself
 		Given I sucessfully register a V-Card
 		When I click on the "Send money" button
 		And I see the text "Send Money"
@@ -107,6 +107,75 @@ Scenario: Fail to send money, pin code incorrect
 		Then I see the text "You cannot send money to yourself"
     And I close the browser
 
+@SendMoneyExcedsSpentable
+Scenario: Fail to send money, Exceds spentable
+		Given I sucessfully login into V-Card
+		When I click on the "Send money" button
+		And I see the text "Send Money"
+		And I insert "911111111" in the phone field
+		And I insert "500" in the payment field
+		And I insert "ola" in the message field
+		And I click on the "Send Payment" button
+		And I insert "0" in Confirmation Modal
+		And I click on the "Confirm" button
+		Then I see the text "You dont have enough money to make this transfer"
+		And I close the browser
+		
+@ArriveSendMoneyAfterContactList
+Scenario: Arrives in Send Money After Contact List
+		Given I sucessfully login into V-Card
+		When I click on the "Contacts" button
+    #If it seems stuck, dont panic c:	
+    And I sucessfully add "911111111" to my contact list
+		And I see the text "911111111"	
+		And I click on the "SendMoneyIcon" button
+		Then I see the text "Send Money"
+		And I close the browser
+		
+		
+@SuccessAfterMoneyIsSent
+Scenario: Success after money is sent
+		Given I sucessfully login into V-Card
+		When I click on the "Send Money" button
+		And I see the text "Send Money"
+		And I insert "911111111" in the phone field
+		And I insert "5" in the payment field
+		And I insert "olaa" in the message field
+		And I click on the "Send Payment" button
+		And I insert "0" in Confirmation Modal
+		And I click on the "Confirm" button
+		Then I see the text "It was sent 5 to 911111111 with success"
+		And I close the browser
+		
+@GetsPhoneNumberfilled
+Scenario: Gets Phone Number filled
+		Given I sucessfully login into V-Card
+		When I click on the "Contacts" button
+    #If it seems stuck, dont panic c:	
+    And I sucessfully add "911111111" to my contact list
+		And I see the text "911111111"	
+		And I click on the "SendMoneyIcon" button
+		Then I see the '911111111' input
+		And I close the browser
+		
+		
+@CheckBalanceSuccessAfterMoneyIsSent
+Scenario: Success after money is sent
+		Given I sucessfully login into V-Card
+		When I click on the "Send Money" button
+		And I see the text "Send Money"
+		And I insert "911111111" in the phone field
+		And I insert "81" in the payment field
+		And I insert "olaa" in the message field
+		And I click on the "Send Payment" button
+		And I insert "0" in Confirmation Modal
+		And I click on the "Confirm" button
+		And I see the text "It was sent 5 to 911111111 with success"
+		And I click on the "OK" button
+		Then I see the text "157"
+		And I close the browser
+		
+		
 	  
 
 	  

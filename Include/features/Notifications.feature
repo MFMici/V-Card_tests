@@ -18,3 +18,10 @@ Scenario: No Notifications
 		And I see the text "Seems like you dont have any notifications"
 		Then I close the browser
 		
+@MarkasRead
+Scenario: Mark notification as read
+		Given I sucessfully login into V-Card
+		When I click on the "bell" button
+		And I see the text "NotificationsT"
+		And I click on the "EyeIcon" button
+		Then I close the browser

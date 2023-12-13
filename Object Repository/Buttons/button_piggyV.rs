@@ -3,15 +3,15 @@
    <description></description>
    <name>button_piggyV</name>
    <tag></tag>
-   <elementGuidId>8a888e79-5852-4054-a856-11beb1486dfd</elementGuidId>
+   <elementGuidId>71315afd-a094-4752-ad55-ab056806b2ca</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>svg</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::*[name()='svg'][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>svg</value>
-      <webElementGuid>959182c2-b0bf-4d28-b2b9-6237eb7c1eed</webElementGuid>
+      <webElementGuid>a4d39a90-3368-4099-bcd3-ea6ac52c9704</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>xmlns</name>
       <type>Main</type>
       <value>http://www.w3.org/2000/svg</value>
-      <webElementGuid>87015b5f-216a-4a0a-9286-cc7bb9f0a0f2</webElementGuid>
+      <webElementGuid>ba17c711-4e97-4f81-8859-ec0a18f10fd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>width</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>085c0ce4-e766-47f8-810f-07e9e6720e64</webElementGuid>
+      <webElementGuid>c5fa3ba4-918e-4a74-9164-affcd3859ad9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>height</name>
       <type>Main</type>
       <value>25</value>
-      <webElementGuid>d00b10f8-640f-4f1b-9832-ccdf4315b465</webElementGuid>
+      <webElementGuid>cd6cea18-ac03-4ac6-97dc-7c49aa295488</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>viewBox</name>
       <type>Main</type>
       <value>0 0 25 25</value>
-      <webElementGuid>c093d313-9e2e-43d7-8fb1-a0584a2349a7</webElementGuid>
+      <webElementGuid>b4d47c79-70fe-4c1a-b1cd-4e878305ab7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>fill</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>44f25eda-e8ca-45ac-8051-86555973782d</webElementGuid>
+      <webElementGuid>0c3b9f27-088f-42fa-8761-b3ab0b8ad380</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,22 +70,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column-start&quot;]/div[@class=&quot;dashboard__container-top&quot;]/div[@class=&quot;dashboard__row-bottom&quot;]/div[@class=&quot;dashboard__container-top-content&quot;]/div[@class=&quot;dashboard__icons&quot;]/a[1]/svg[1]</value>
-      <webElementGuid>9b1deaa9-4861-43a5-8f18-3e5789ac5ae8</webElementGuid>
+      <webElementGuid>2a385914-833e-4a8a-a81d-049c345375e2</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::*[name()='svg'][1]</value>
-      <webElementGuid>283f4ace-6225-4d8a-af04-f86986cf288c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Transactions'])[1]/preceding::*[name()='svg'][2]</value>
-      <webElementGuid>9f62ccbb-3081-46dc-8338-f0be558e5074</webElementGuid>
-   </webElementXpaths>
 </WebElementEntity>

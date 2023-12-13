@@ -39,7 +39,7 @@ I want to see my dashboard
     And I close the browser 
     
 @CheckIfAccountIsClear
-  Scenario: Clear Account
+  Scenario: Check if Account is clear
  		Given I sucessfully register a V-Card
 		When I see the text "0"
 		And I see the text "Seems like you dont have any moviments in your account"

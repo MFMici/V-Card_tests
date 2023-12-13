@@ -134,7 +134,7 @@ Scenario: Check Piggy After Round Transaction
 		And I click on the "Send money" button
 		And I see the text "Send Money"
 		And I insert "911111111" in the phone field
-		And I insert "5,90" in the payment field
+		And I insert "5.90" in the payment field
 		And I insert "ola" in the message field
 		And I click on the "Send Payment" button
 		And I insert "0" in Confirmation Modal

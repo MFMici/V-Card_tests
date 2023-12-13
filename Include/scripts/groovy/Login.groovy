@@ -23,17 +23,17 @@ public class Login {
 	@Given("I sucessfully login into V-Card")
 	public void i_sucessfully_login_into_V_Card() {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://code-git-feature-gz-49-grupoz.vercel.app/?_vercel_share=gALFEcY2Ne3gvkI91G8z2DSGXul113c8')
+		WebUI.navigateToUrl('https://code-grupoz.vercel.app/')
 		WebUI.click(findTestObject('Buttons/button_Already have an account'))
 		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '910000091')
 		WebUI.setText(findTestObject('Inputs/input_Password_password_Register'), 'Abc123..')
 		WebUI.click(findTestObject('Buttons/button_Login'))
 	}
-	
+
 	@Given("I sucessfully login into V-Card as 911 222 333")
 	public void i_sucessfully_login_into_V_Card_as_911_222_333() {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://code-git-feature-gz-49-grupoz.vercel.app/?_vercel_share=gALFEcY2Ne3gvkI91G8z2DSGXul113c8')
+		WebUI.navigateToUrl('https://code-grupoz.vercel.app/')
 		WebUI.click(findTestObject('Buttons/button_Already have an account'))
 		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), '911 222 333')
 		WebUI.setText(findTestObject('Inputs/input_Password_password_Register'), 'micael1!A')

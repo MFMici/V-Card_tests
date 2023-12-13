@@ -2,6 +2,9 @@ Feature: View transactions page
 As a user
 I want to see my transactions
 
+#On the end of this feature file there is a scenario that can't be tested (because data picker won't work on Katalon)
+#We included it anyway because it should be manually tested
+
 @GoToTransactions
 Scenario: Get to the add transactions
 		Given I sucessfully register a V-Card
@@ -98,7 +101,9 @@ Given I sucessfully login into V-Card as 911 222 333
 		#Given I sucessfully login into V-Card
 		#When I click on the "Transacations" button
 		#And I see the text "Transactions"
+		##This mean's we insert day 8 of December of 2023
 		#And I insert "08122023" in Date Picker
+		##This mean's we insert day 7 of December of 2023
 		#And I insert "07122023" in Date Picker
 		#And I click on the "Filter By Date Range" button
 		#And I see the text "Start date must be before end date"	

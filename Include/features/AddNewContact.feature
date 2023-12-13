@@ -16,7 +16,7 @@ Scenario: Get to the add contact
 Scenario: User adds a contact to the list of contacts
 		Given I sucessfully register a V-Card
 		When I click on the "Contacts" button
-    #If it seems stuck, dont panic c:	
+    #If it seems stuck, dont panic c:
     And I sucessfully add "911111111" to my contact list
 		Then I see the text "911111111"
 		And I close the browser

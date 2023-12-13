@@ -78,17 +78,17 @@ class Register {
 	public void i_insert_in_the_message_field(String string) {
 		WebUI.setText(findTestObject('Inputs/input_Message'), string)
 	}
-	
+
 	@When("I insert {string} in Date Picker")
 	public void i_insert_in_Date_Picker(String string) {
 		WebUI.setText(findTestObject('Inputs/input_'), string)
 	}
-	
+
 
 	@Given("I sucessfully register a V-Card")
 	public void i_sucessfully_register_a_V_Card() {
 		WebUI.openBrowser('')
-		WebUI.navigateToUrl('https://code-git-feature-gz-51-grupoz.vercel.app/?_vercel_share=W1IqsjFf8pQbBl8pguNR4hh3ahtKAHAs')
+		WebUI.navigateToUrl('https://code-grupoz.vercel.app/')
 		WebUI.click(findTestObject('Buttons/button_Create new account'))
 		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), phoneNumber)
 		WebUI.setText(findTestObject('Inputs/input_Password_password_Register'), 'micael1!A')
@@ -101,14 +101,14 @@ class Register {
 		WebUI.click(findTestObject('Buttons/button_OK'))
 	}
 
-	@When("I insert my {string} in the phone field")
-	public void i_insert_my_phone_field(String string) {
-		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), phoneNumber)
-	}
-
 	@And("I insert {string} in the deposit quantity")
 	public void i_insert_in_deposit_quantity(String string) {
 		WebUI.setText(findTestObject('Inputs/input_Deposit Quantity'), string)
+	}
+		
+	@Given("I insert a random valid phone number in the phone field")
+	public void i_insert_a_random_valid_phone_number_in_the_phone_field() {
+		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), phoneNumber)
 	}
 }
 

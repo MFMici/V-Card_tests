@@ -38,3 +38,19 @@ I want to see my dashboard
     Then I see the text "Total balance"
     And I close the browser 
     
+@CheckIfAccountIsClear
+  Scenario: Clear Account
+ 		Given I sucessfully register a V-Card
+		When I see the text "0"
+		And I see the text "Seems like you dont have any moviments in your account"
+		And I click on the "Transacations" button
+		And I see the text "Seems like you dont have any moviments in your account"
+		And I click on the "Contacts" button
+		And I see the text "Seems like you dont have any contacts"
+		And I click on the "Settings" button
+		And I verify that "Round up" is off
+		And I verify that "Notifications" is off
+		And I click on the "Home" button
+		And I click on the "PiggyV" button
+		Then I see the text "Seems like you dont have any moviments in your account"
+		And I close the browser

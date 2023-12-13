@@ -78,6 +78,12 @@ class Register {
 	public void i_insert_in_the_message_field(String string) {
 		WebUI.setText(findTestObject('Inputs/input_Message'), string)
 	}
+	
+	@When("I insert {string} in Date Picker")
+	public void i_insert_in_Date_Picker(String string) {
+		WebUI.setText(findTestObject('Inputs/input_'), string)
+	}
+	
 
 	@Given("I sucessfully register a V-Card")
 	public void i_sucessfully_register_a_V_Card() {
@@ -99,7 +105,7 @@ class Register {
 	public void i_insert_my_phone_field(String string) {
 		WebUI.setText(findTestObject('Inputs/input_Phone_phone_Register'), phoneNumber)
 	}
-	
+
 	@And("I insert {string} in the deposit quantity")
 	public void i_insert_in_deposit_quantity(String string) {
 		WebUI.setText(findTestObject('Inputs/input_Deposit Quantity'), string)

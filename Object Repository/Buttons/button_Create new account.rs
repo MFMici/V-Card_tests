@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create new account</name>
+   <tag></tag>
+   <elementGuidId>fa17b621-ad4a-4688-af04-6bd129278764</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.fade-in.primary-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>010940ff-0d71-4cde-a168-8ea0096f73ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/register</value>
+      <webElementGuid>192ceaff-1e58-4482-9325-0eca12f30acb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fade-in primary-button</value>
+      <webElementGuid>2edbb1a9-0640-402e-8692-3e843900ea6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create new account</value>
+      <webElementGuid>6f8ac9a4-c65e-4a54-a0a0-ff5d444a525f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;home__container&quot;]/div[@class=&quot;home__container-inner&quot;]/div[@class=&quot;home__container-buttons fade-in&quot;]/a[@class=&quot;fade-in primary-button&quot;]</value>
+      <webElementGuid>71f765e6-7ef7-4999-8d0e-1998762ae510</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div[2]/a</value>
+      <webElementGuid>a4b32ea3-c362-4b3c-bda4-c34f1ae0cfd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transfer Money'])[1]/following::a[1]</value>
+      <webElementGuid>8ed35c24-d48a-4c26-b5f0-96660fb2d5b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::a[2]</value>
+      <webElementGuid>f8f939b5-0886-4be3-aa56-87a228a14742</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/register')]</value>
+      <webElementGuid>d0bbf774-89fe-4001-b19a-a2de967f1309</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>902ec196-b805-4b64-91c6-1ba8a1236b26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/register' and (text() = 'Create new account' or . = 'Create new account')]</value>
+      <webElementGuid>94dfc3d6-fcdc-451c-ab1f-5f2466f7bdcf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_Invalid Portuguese phone number</name>
+   <tag></tag>
+   <elementGuidId>a344806c-b029-4c03-943d-befb116bf20b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div/div/span[2]/ul/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>173b6314-7083-45a0-bc6d-ec0d6c82d78a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invalid Portuguese phone number</value>
+      <webElementGuid>382fa27d-441b-430a-ae88-194d091e14fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;register__form-wrapper&quot;]/div[@class=&quot;register__inputs-wrapper&quot;]/div[@class=&quot;input__group-col&quot;]/span[@class=&quot;input__error-text&quot;]/ul[1]/li[1]</value>
+      <webElementGuid>152996a7-f0f0-41df-b6e5-0c00f35c74c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/div/span[2]/ul/li</value>
+      <webElementGuid>8b9c68db-6933-441b-8bf9-ff2ebd6d1a70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone'])[1]/following::li[1]</value>
+      <webElementGuid>f71a791b-ef98-492e-8386-56ca882102f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register and start transferring'])[1]/following::li[1]</value>
+      <webElementGuid>3323c62c-fc79-4ca8-a11b-0d31af714fb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/preceding::li[1]</value>
+      <webElementGuid>b7e8f413-60dc-4b68-a7c9-10384bb4eafe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invalid Portuguese phone number']/parent::*</value>
+      <webElementGuid>3d1c2d1a-f481-4d2e-8af2-7d026c262176</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li</value>
+      <webElementGuid>b36f778a-7ffd-4371-8435-b6f06b515b83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Invalid Portuguese phone number' or . = 'Invalid Portuguese phone number')]</value>
+      <webElementGuid>eb941cac-8042-41b5-a375-253853c9c0d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

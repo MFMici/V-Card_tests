@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_Withdraw Money</name>
+   <tag></tag>
+   <elementGuidId>7ec9eb22-f612-4ca7-bfeb-16dd5679f646</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.contact__title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>c66b03e0-3a66-4f65-b56e-fe62898a5ca4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>contact__title</value>
+      <webElementGuid>24277be3-53ef-44c0-9607-716f7e699b9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Withdraw Money</value>
+      <webElementGuid>e72bde1e-2aa2-4416-b6ea-42112f6e8881</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;contact__header__wrapper mt-50&quot;]/h1[@class=&quot;contact__title&quot;]</value>
+      <webElementGuid>3334853e-aac0-406e-8d94-f5e62d26d5f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/h1</value>
+      <webElementGuid>ea033d41-b886-482b-9a22-c6fc3da54e96</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Withdraw Quantity'])[1]/preceding::h1[1]</value>
+      <webElementGuid>150e17d1-00f8-4a90-9f0c-9b14e3b31493</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Withdraw Money']/parent::*</value>
+      <webElementGuid>d4cb9a29-e62b-4c64-bbb3-663d5b6aa258</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>d152daa5-a30b-42cc-bda8-fa0efcf51db0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Withdraw Money' or . = 'Withdraw Money')]</value>
+      <webElementGuid>819ede82-83cf-4689-9537-1f47c78474b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

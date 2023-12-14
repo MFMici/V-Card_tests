@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Filter by Date Range</name>
+   <tag></tag>
+   <elementGuidId>f0b6e40b-ae2d-4aae-9130-573415a505cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div[5]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a542104e-db34-4ade-b8f2-ac53a041c053</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>transactions__filter</value>
+      <webElementGuid>13727000-c10f-4a65-a588-ccfd1f888e52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Filter by Date Range </value>
+      <webElementGuid>e0cd8166-3300-4592-91c3-14fbd7b10bc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column-start&quot;]/div[@class=&quot;input__group-col&quot;]/div[@class=&quot;transationcs__filters&quot;]/button[@class=&quot;transactions__filter&quot;]</value>
+      <webElementGuid>fdf7a6e5-4eca-4352-a422-9113b77d861b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div[5]/button</value>
+      <webElementGuid>5523db91-a6d2-42b4-9b59-4f46fccca382</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Incomes'])[1]/following::button[1]</value>
+      <webElementGuid>56104bf6-8243-46b9-adf1-e898548090b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Expenses'])[1]/following::button[2]</value>
+      <webElementGuid>99b9c3c8-5707-4fdd-b5ac-ecc223119901</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reset'])[1]/preceding::button[1]</value>
+      <webElementGuid>34857169-683c-4796-b940-bfbef3d394d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/preceding::button[2]</value>
+      <webElementGuid>0869a8ba-73ec-4bee-9d13-9b5214c05cf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button</value>
+      <webElementGuid>37f9fee6-59dc-4695-8aec-5f1b0e7f5632</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Filter by Date Range ' or . = ' Filter by Date Range ')]</value>
+      <webElementGuid>b73e9c98-866a-4167-9cec-5328f84e9eb0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

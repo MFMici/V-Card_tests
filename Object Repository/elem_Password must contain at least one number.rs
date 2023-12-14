@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_Password must contain at least one number</name>
+   <tag></tag>
+   <elementGuidId>95179616-485f-417d-a75a-a2de7ca45f1f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div/div[2]/span[2]/ul/li[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(3)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>5d12c2b7-806d-4604-9192-dc795163df8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Password must contain at least one number</value>
+      <webElementGuid>37c31a4c-48a4-4011-be4c-278669838c32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;register__form-wrapper&quot;]/div[@class=&quot;register__inputs-wrapper&quot;]/div[@class=&quot;input__group-col&quot;]/span[@class=&quot;input__error-text&quot;]/ul[1]/li[3]</value>
+      <webElementGuid>6f3edf7b-7cec-4d1a-9f2e-fa988658a8a3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/div[2]/span[2]/ul/li[3]</value>
+      <webElementGuid>310a4a11-e6ba-4fbf-a878-fcca63c12278</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must contain at least one uppercase letter'])[1]/following::li[1]</value>
+      <webElementGuid>80e6c20e-00cc-43a2-a219-9b6dd14c502e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must be at least 8 characters long'])[1]/following::li[2]</value>
+      <webElementGuid>4e405b40-a0b0-4f38-b2f3-7fd931932175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must contain at least one special character'])[1]/preceding::li[1]</value>
+      <webElementGuid>5bb3b487-17b2-4f06-a285-62dda8947a09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Password must contain at least one number']/parent::*</value>
+      <webElementGuid>ed646cb0-6f0d-4b17-a357-284c041fcffb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]</value>
+      <webElementGuid>6e1ebce8-c0b3-4d79-af41-3be2138a3641</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Password must contain at least one number' or . = 'Password must contain at least one number')]</value>
+      <webElementGuid>260bff39-131d-4474-9fdf-c3c08d4b2e21</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

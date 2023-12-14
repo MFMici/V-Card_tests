@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_last transactions</name>
+   <tag></tag>
+   <elementGuidId>6662084f-7634-454f-a532-52b98f5d28ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.font-bold.primary-font</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div[3]/div[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>81c46707-d095-488e-96c5-7d8faed2523c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-bold primary-font</value>
+      <webElementGuid>90321df5-895d-400b-b8b3-e7098fee5ff9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>-$29.99</value>
+      <webElementGuid>8098eccc-19ac-410b-8bad-7583ef0ba70f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column-start&quot;]/div[@class=&quot;single-contact__container&quot;]/div[@class=&quot;single-contact__button&quot;]/span[@class=&quot;font-bold primary-font&quot;]</value>
+      <webElementGuid>721416ce-67b4-4128-9b51-512a785b602f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div[3]/div[3]/span</value>
+      <webElementGuid>fb1987b9-b604-4804-8d46-49a25d33631e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jun 21, 10:24h'])[1]/following::span[1]</value>
+      <webElementGuid>5997ec8d-db95-471a-8de9-d7aa50b4691b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View all'])[1]/following::span[1]</value>
+      <webElementGuid>354aa97a-f87f-414b-8b7c-6932657978c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jun 21, 10:24h'])[2]/preceding::span[1]</value>
+      <webElementGuid>e052fb1a-ff4e-419c-a6ee-062b047706ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-$29.99'])[2]/preceding::span[1]</value>
+      <webElementGuid>9bb49083-9e80-4c1a-ba8e-a59585396158</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>b27c5a96-7eac-467e-b94e-10503948d13e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '-$29.99' or . = '-$29.99')]</value>
+      <webElementGuid>cc4c9ec8-0f81-4ff0-8aae-f2d84bf88bbd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

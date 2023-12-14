@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_Password must contain at least one special character</name>
+   <tag></tag>
+   <elementGuidId>8981b739-061b-478b-8b5b-f4767cddec4c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div/div[2]/span[2]/ul/li[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(4)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>2b995e9b-462e-4dde-b79f-70105089a609</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Password must contain at least one special character</value>
+      <webElementGuid>3890f5cd-ab69-4a29-8237-afafd8d6190d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;register__form-wrapper&quot;]/div[@class=&quot;register__inputs-wrapper&quot;]/div[@class=&quot;input__group-col&quot;]/span[@class=&quot;input__error-text&quot;]/ul[1]/li[4]</value>
+      <webElementGuid>4f43b048-72c6-4fb5-a75f-859b92ee3956</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/div[2]/span[2]/ul/li[4]</value>
+      <webElementGuid>7595fe7b-1d06-4b07-b69f-cb94fb604f01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must contain at least one number'])[1]/following::li[1]</value>
+      <webElementGuid>4286d683-a524-4185-ac5b-104b4be1d381</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password must contain at least one uppercase letter'])[1]/following::li[2]</value>
+      <webElementGuid>d51e2de6-4c41-4dee-800a-2f3632bcbde6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Password must contain at least one special character']/parent::*</value>
+      <webElementGuid>156a5745-ccf5-4266-9102-41bdd069e69f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]</value>
+      <webElementGuid>1545b99a-5d0b-4218-ab6a-e0791510d360</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Password must contain at least one special character' or . = 'Password must contain at least one special character')]</value>
+      <webElementGuid>ac7d0c64-28f4-43e2-8f58-f4607aa3f931</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

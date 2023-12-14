@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>InvalidNewContactName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a064e98-f0dd-4021-9868-5694ab025cf2</testCaseGuid>
+</TestCaseEntity>

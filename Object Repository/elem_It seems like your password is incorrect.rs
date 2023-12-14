@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_It seems like your password is incorrect</name>
+   <tag></tag>
+   <elementGuidId>a2840475-109b-41fe-ba0e-1db7bbf212ae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@id='swal2-title']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#swal2-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>0b59633a-7d1d-4d46-b077-f2345003954e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swal2-title</value>
+      <webElementGuid>525b4009-03ce-43d3-8c8c-757febce7cfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>swal2-title</value>
+      <webElementGuid>fcd6e8d8-5428-4a54-89c4-978e6a759b8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>It seems like your password is incorrect</value>
+      <webElementGuid>b9e8f70d-4803-4ff0-a174-c8e143bf2ad6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swal2-title&quot;)</value>
+      <webElementGuid>ce009da4-1211-4978-9984-0174699342b3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h2[@id='swal2-title']</value>
+      <webElementGuid>0019f18a-070f-45b1-bb55-16a8e6e6069c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::h2[1]</value>
+      <webElementGuid>2cdd2480-e577-4523-959a-382f28b89fa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h2[1]</value>
+      <webElementGuid>21ed21bb-02d2-4ef8-9db5-d78818d1c71f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::h2[1]</value>
+      <webElementGuid>022ae646-2846-483c-858f-19994aed50b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::h2[1]</value>
+      <webElementGuid>69e6b3d3-a025-4c8d-bb49-28425bd2ba77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>a54a7187-5e85-413d-b0ee-812d80f85f7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[@id = 'swal2-title' and (text() = 'It seems like your password is incorrect' or . = 'It seems like your password is incorrect')]</value>
+      <webElementGuid>325b2955-4cbb-432d-b33c-d1e273455678</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

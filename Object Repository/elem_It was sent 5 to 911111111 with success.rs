@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_It was sent 5 to 911111111 with success</name>
+   <tag></tag>
+   <elementGuidId>8f759ab9-bd99-4057-98c9-184bfa9d2f1a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#swal2-html-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='swal2-html-container']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c4260179-e4d7-443a-a5a5-bcd612c39c7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swal2-html-container</value>
+      <webElementGuid>666e2164-b3a1-417b-940d-308f6a2eb950</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>swal2-html-container</value>
+      <webElementGuid>160a8c93-a7af-441d-ad72-fd891fb9ccd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>It was sent 5€ to 911111111 with success</value>
+      <webElementGuid>bddf9424-a3ef-424a-84ee-4be94ca26d4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swal2-html-container&quot;)</value>
+      <webElementGuid>edabdf90-aeef-4709-9ceb-f1ae710383d1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='swal2-html-container']</value>
+      <webElementGuid>5bea0adc-bc96-46b1-817f-c10f222a7965</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sent Money with Success'])[1]/following::div[1]</value>
+      <webElementGuid>ce3d39c8-15ff-45ca-aefb-b5cae9877b77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[6]</value>
+      <webElementGuid>27ffc3d3-514b-4c0b-9b5f-98e7aeb11f89</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[5]</value>
+      <webElementGuid>43de66d8-5799-448c-aedd-5d36f99448a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::div[5]</value>
+      <webElementGuid>f24e4695-68bc-42bf-b730-748a30b2a2ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='It was sent 5€ to 911111111 with success']/parent::*</value>
+      <webElementGuid>60cb2d18-85c8-41c4-9a86-172add7e2d74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body/div[3]/div/div[2]</value>
+      <webElementGuid>b2d306bb-fe15-493e-b8e7-24a35893b192</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'swal2-html-container' and (text() = 'It was sent 5€ to 911111111 with success' or . = 'It was sent 5€ to 911111111 with success')]</value>
+      <webElementGuid>b4237274-a883-4673-a309-79878dc818bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

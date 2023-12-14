@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_You dont have enough money in your deposit to make this transfer</name>
+   <tag></tag>
+   <elementGuidId>110157df-0077-4d02-a110-f0ee7d7ad794</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#swal2-html-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='swal2-html-container']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6c5a70c2-108e-4385-8e65-08c49474786c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swal2-html-container</value>
+      <webElementGuid>0acd8c83-80d7-4684-bf8f-a7be5fff3c2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>swal2-html-container</value>
+      <webElementGuid>59fda5d1-28ff-4796-b56c-eaac69bf2520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You don`t have enough money in your deposit to make this transfer</value>
+      <webElementGuid>2138da3b-ea9d-48dc-8a6f-e34282317f4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swal2-html-container&quot;)</value>
+      <webElementGuid>91afb6f0-b4fd-47c8-a38b-1eb6234fd276</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='swal2-html-container']</value>
+      <webElementGuid>b618c53a-0c60-4411-ae50-5b209d8cd317</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Error'])[1]/following::div[1]</value>
+      <webElementGuid>690ea355-9eca-4158-bb62-bad017485e8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[2]</value>
+      <webElementGuid>7f950c07-1b91-4bc1-ad67-d9474819b869</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[5]</value>
+      <webElementGuid>57625e2e-8594-4d06-920c-75ea20919518</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::div[5]</value>
+      <webElementGuid>4e3c8ee2-cc14-4730-b371-f11369c2b9a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='You don`t have enough money in your deposit to make this transfer']/parent::*</value>
+      <webElementGuid>9f1d5642-e7de-44bf-966d-eed255ae5473</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]</value>
+      <webElementGuid>6126826d-ff38-466c-a3c1-b68be1147e66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'swal2-html-container' and (text() = 'You don`t have enough money in your deposit to make this transfer' or . = 'You don`t have enough money in your deposit to make this transfer')]</value>
+      <webElementGuid>b73d6f9a-5308-4840-8f84-da0cbb644d8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_Welcome to V-Card</name>
+   <tag></tag>
+   <elementGuidId>7ba116f1-523a-4d2d-9bac-25ae90d57776</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#swal2-title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//h2[@id='swal2-title']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>cfbddb03-302b-4cde-a36d-3d894c99ca20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swal2-title</value>
+      <webElementGuid>dd1773c5-94a8-45be-a60a-8e203267b6d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>swal2-title</value>
+      <webElementGuid>9df8b06a-c7a3-4e06-980d-486cfa354027</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Welcome to V-Card</value>
+      <webElementGuid>d7fa1151-439c-47b9-a587-d5c242a2a9c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swal2-title&quot;)</value>
+      <webElementGuid>cfed0c64-acf2-43e2-85d6-506ce4281aa3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//h2[@id='swal2-title']</value>
+      <webElementGuid>fc1e136b-22f9-4661-843c-341b444e658b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::h2[1]</value>
+      <webElementGuid>abe7cae5-25f4-4ab1-9232-57a7318f32c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::h2[1]</value>
+      <webElementGuid>961f72fb-a451-4894-9285-dfc609eeba46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='V-Card created with success.'])[1]/preceding::h2[1]</value>
+      <webElementGuid>f5e8340f-4415-428b-b0c3-de0f1d9b1481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::h2[1]</value>
+      <webElementGuid>a4568144-6c10-4d25-a9ce-2ce87515f195</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Welcome to V-Card']/parent::*</value>
+      <webElementGuid>43195549-eb4a-40de-aa7f-caa97ddc97d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>d5241297-6f69-47b2-a93e-eb0271c3ec66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[@id = 'swal2-title' and (text() = 'Welcome to V-Card' or . = 'Welcome to V-Card')]</value>
+      <webElementGuid>06280a34-d313-4cb2-89dd-87626cc961e9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

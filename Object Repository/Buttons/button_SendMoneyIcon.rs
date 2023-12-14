@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_SendMoneyIcon</name>
+   <tag></tag>
+   <elementGuidId>ca376cb9-f16f-407f-998e-30f38c656a2a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.cube-button > svg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='V-Card User'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>09e2a8b1-5c76-49ba-b4cf-323e6e011762</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>3b49c8ff-3397-4450-9b3d-c395ab85b1bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>34</value>
+      <webElementGuid>ebf9f16f-22ff-4fab-9ebc-68061ba4b9e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>34</value>
+      <webElementGuid>cab2a3b7-19ee-4594-8048-9480f54396a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 34 34</value>
+      <webElementGuid>b325cb07-6f69-41dc-bbda-592e76cf3272</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>c56cd3c8-7a93-4cd2-be31-db906c2c4d89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column&quot;]/div[@class=&quot;input__group-col&quot;]/div[@class=&quot;single-contact__wrapper&quot;]/div[@class=&quot;space&quot;]/div[@class=&quot;single-contact__container&quot;]/div[@class=&quot;single-contact__button&quot;]/a[1]/button[@class=&quot;cube-button&quot;]/svg[1]</value>
+      <webElementGuid>e60540b0-0b95-4b29-bdad-b97e67c8ad5b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='V-Card User'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>bb1972a3-700a-4494-9ccd-0314e0f3a819</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Import Contacts'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>eb87ff79-c139-4919-8641-b8817ed38868</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>66a95de1-d4a6-4f5c-b25a-7e00c47a7e84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transacations'])[1]/preceding::*[name()='svg'][3]</value>
+      <webElementGuid>ca0e709e-4db5-4753-ab73-51ecc5c9b4a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

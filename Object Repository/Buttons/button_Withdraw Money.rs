@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Withdraw Money</name>
+   <tag></tag>
+   <elementGuidId>ec3086ab-4ec4-49b3-afb5-b6e0cca9842c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.primary-button.mt-30.piggy-bank__button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>1dd54520-748b-43ff-8b45-9dfeb7cb0dec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/send-money/W</value>
+      <webElementGuid>e45229b4-b577-4e18-a877-a85cd9ed27d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>primary-button mt-30 piggy-bank__button</value>
+      <webElementGuid>b49b0614-4e9f-4988-96a7-9ad38b4aca44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Withdraw Money </value>
+      <webElementGuid>4fd5bd58-8bf2-4ccc-8b57-f4d15743b2a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;container__direction-column-start&quot;]/div[@class=&quot;piggy-bank__button-wrapper&quot;]/a[@class=&quot;primary-button mt-30 piggy-bank__button&quot;]</value>
+      <webElementGuid>baadc685-29bd-42d3-91dd-785983594b16</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div[3]/a</value>
+      <webElementGuid>c6b6c18e-1262-4436-a95a-6d217536223f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Piggy Bank'])[1]/following::a[1]</value>
+      <webElementGuid>92ea9b81-be04-431b-b7ab-9e08d192a5b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Piggy Transactions'])[1]/preceding::a[2]</value>
+      <webElementGuid>09dda2ff-00ab-4e1f-becc-0e8619b539ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Withdraw Money']/parent::*</value>
+      <webElementGuid>eb4658a3-0003-4ea0-b8cf-52ccb87f951f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/send-money/W')]</value>
+      <webElementGuid>7b2c07fe-73d6-4ee9-b36e-1b6e25d23a4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>169603c5-258f-4414-9102-caa7ac877563</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/send-money/W' and (text() = ' Withdraw Money ' or . = ' Withdraw Money ')]</value>
+      <webElementGuid>31e5727e-1b3e-4941-9f85-4f5e6b9833a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

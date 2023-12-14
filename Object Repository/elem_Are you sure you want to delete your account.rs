@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_Are you sure you want to delete your account</name>
+   <tag></tag>
+   <elementGuidId>8e96abfe-99cc-46da-b9dc-e86706544f13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h1.code-modal__title</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div/h1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h1</value>
+      <webElementGuid>42ab74ce-f018-48a4-84fa-99f239b4fa4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>code-modal__title</value>
+      <webElementGuid>5eb65028-e10f-4c28-8d9d-cc75f874e183</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Are you sure you want to delete your account?</value>
+      <webElementGuid>0db13a73-aec3-4f83-835b-9e589606e484</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-container__container&quot;]/div[@class=&quot;main-container__container-inner&quot;]/div[@class=&quot;modal&quot;]/div[@class=&quot;modal-wrapper&quot;]/div[@class=&quot;modal__inner&quot;]/h1[@class=&quot;code-modal__title&quot;]</value>
+      <webElementGuid>ea14e4a2-7739-4841-b784-266cf5bdeded</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div/h1</value>
+      <webElementGuid>2c7fb092-f7ea-4b0e-a952-0c259b9dcfde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1</value>
+      <webElementGuid>26af6577-9bab-4e0a-80a4-249021bc57d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h1[(text() = 'Are you sure you want to delete your account?' or . = 'Are you sure you want to delete your account?')]</value>
+      <webElementGuid>fa05b568-a873-4bad-a087-ae566d9202d8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

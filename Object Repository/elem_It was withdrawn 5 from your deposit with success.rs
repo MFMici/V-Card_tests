@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elem_It was withdrawn 5 from your deposit with success</name>
+   <tag></tag>
+   <elementGuidId>e24b76f5-3f4b-4604-8bf4-9a47aace2cea</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#swal2-html-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='swal2-html-container']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>79cd7172-9468-4aea-b331-441bbce8264c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>swal2-html-container</value>
+      <webElementGuid>fc402051-51bc-48f3-9d33-e4125a03069c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>swal2-html-container</value>
+      <webElementGuid>0caa2633-49c1-4851-a6ae-aee24c438fce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>It was withdrawn 5€ from your deposit with success</value>
+      <webElementGuid>7c18e3fe-8d21-48f5-be34-3b6afb5eb4ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;swal2-html-container&quot;)</value>
+      <webElementGuid>f86a8d85-7649-493b-aee2-c9a23ccf985c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='swal2-html-container']</value>
+      <webElementGuid>3bb54437-9115-4207-976e-744fc57ca4c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/following::div[6]</value>
+      <webElementGuid>9c6568f9-e7ad-452d-9765-2fef1c5909a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::div[9]</value>
+      <webElementGuid>e2093843-ecd8-47ef-9f27-042a81717239</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OK'])[1]/preceding::div[5]</value>
+      <webElementGuid>e4a9fbbe-a37a-4f83-b7a2-44d557429885</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::div[5]</value>
+      <webElementGuid>c00de97a-57da-415a-b581-043cf4c6fa3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='It was withdrawn 5€ from your deposit with success']/parent::*</value>
+      <webElementGuid>5bdb5970-9254-4641-8ad1-154c2b6a0dc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]</value>
+      <webElementGuid>3aa78daf-9d27-40fc-874a-cbead8a2508b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'swal2-html-container' and (text() = 'It was withdrawn 5€ from your deposit with success' or . = 'It was withdrawn 5€ from your deposit with success')]</value>
+      <webElementGuid>e9963fb6-a176-4c52-bc8a-61140caa28f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
